@@ -1,14 +1,21 @@
 ﻿using System.Collections;
 using UnityEngine;
 
+public delegate void EndOfDialogue();
+
 public class ActionDialog : ActionTrigger
 {
+    public Dialogue dialogue;
+
+    private EndOfDialogue function;
+
+
     public override void DoAction() {
         base.DoAction();
 
-        Debug.Log("Estou falando");
-        StartCoroutine(WaitUntilDialogIsFinished());
+        function = EndAction;
 
+        DialogueManager.Instance.StartDialogue(dialogue, function);
     }
 
     public override void EndAction() {
@@ -19,10 +26,9 @@ public class ActionDialog : ActionTrigger
 
     IEnumerator WaitUntilDialogIsFinished() {
 
-        for (; ; ) {
-            yield return new WaitForSeconds(5f);
-            EndAction();
-        }
+        yield return new WaitForSeconds(5f);
+        EndAction();
+        
     }
 
 }

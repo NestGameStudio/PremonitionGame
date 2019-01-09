@@ -168,3 +168,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MouseController: {fileID: 0}
+  dialogue:
+    name: Generic NPC
+    sentences:
+    - "Eu sou o conte\xFAdo da fala 1"
+    - "Prazer! Eu sou o NPC Gen\xE9rico"
+    - "Pau no cu de quem t\xE1 lendo"
