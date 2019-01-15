@@ -181,52 +181,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
         type: 3}
-      propertyPath: dialoguePrompts.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: "-> Hey --\t"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
-      value: Jorge
-      objectReference: {fileID: 0}
-    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: "Did you see that as well? It seems there's something wrong with the
-        wing.\t"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
-      value: You
-      objectReference: {fileID: 0}
-    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
-      value: What do you think happened?
-      objectReference: {fileID: 0}
-    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
-      value: Jorge
-      objectReference: {fileID: 0}
-    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
-      value: My guess? Fuel Leak. Can't be sure though.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
-        type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
@@ -847,53 +801,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8339321569968424413, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
         type: 3}
-      propertyPath: dialoguePrompts.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8339321569968424413, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8339321569968424413, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: -> Sorry to bother you, but did you notice anything strange with the
-        plane recently?
-      objectReference: {fileID: 0}
-    - target: {fileID: 8339321569968424413, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: Nothing that caught my eye, no.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8339321569968424413, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
-      value: But I did notice that the flight crew has a neat little closet where
-        they keep all of their stuff.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8339321569968424413, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
-      value: Jane
-      objectReference: {fileID: 0}
-    - target: {fileID: 8339321569968424413, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
-      value: I wonder what they have in there...
-      objectReference: {fileID: 0}
-    - target: {fileID: 8339321569968424413, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
-      value: Jane
-      objectReference: {fileID: 0}
-    - target: {fileID: 8339321569968424413, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
-      value: Jane
-      objectReference: {fileID: 0}
-    - target: {fileID: 8339321569968424413, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
-        type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
@@ -971,53 +878,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279141378937492787, guid: 8ed6ccc52302276489d061fffd7737b7,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279141378937492787, guid: 8ed6ccc52302276489d061fffd7737b7,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279141378937492787, guid: 8ed6ccc52302276489d061fffd7737b7,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: -> Hey, did you notice anything weird with the flight?
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279141378937492787, guid: 8ed6ccc52302276489d061fffd7737b7,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
-      value: Kate
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279141378937492787, guid: 8ed6ccc52302276489d061fffd7737b7,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: Yeah man... I asked for more food and the flight attendant wouldn't give
-        me some more.
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279141378937492787, guid: 8ed6ccc52302276489d061fffd7737b7,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
-      value: Kate
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279141378937492787, guid: 8ed6ccc52302276489d061fffd7737b7,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
-      value: "I'm about to go to the back of the plane where they keep all the good
-        stuff and snatch me some goodies.\t"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279141378937492787, guid: 8ed6ccc52302276489d061fffd7737b7,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
-      value: Kate
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279141378937492787, guid: 8ed6ccc52302276489d061fffd7737b7,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
-      value: You should head there too!
       objectReference: {fileID: 0}
     - target: {fileID: 1279141378937492787, guid: 8ed6ccc52302276489d061fffd7737b7,
         type: 3}
@@ -2051,51 +1911,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4430906093489138880, guid: 2f51fb10646f58c4fa4dc4630655da07,
         type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4430906093489138880, guid: 2f51fb10646f58c4fa4dc4630655da07,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4430906093489138880, guid: 2f51fb10646f58c4fa4dc4630655da07,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: -> Excuse me, sir.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4430906093489138880, guid: 2f51fb10646f58c4fa4dc4630655da07,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
-      value: Richard
-      objectReference: {fileID: 0}
-    - target: {fileID: 4430906093489138880, guid: 2f51fb10646f58c4fa4dc4630655da07,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: What do you want? Can't you see I'm trying to sleep?
-      objectReference: {fileID: 0}
-    - target: {fileID: 4430906093489138880, guid: 2f51fb10646f58c4fa4dc4630655da07,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
-      value: You
-      objectReference: {fileID: 0}
-    - target: {fileID: 4430906093489138880, guid: 2f51fb10646f58c4fa4dc4630655da07,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
-      value: Did you happen to notice anything weird with the plane?
-      objectReference: {fileID: 0}
-    - target: {fileID: 4430906093489138880, guid: 2f51fb10646f58c4fa4dc4630655da07,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
-      value: Richard
-      objectReference: {fileID: 0}
-    - target: {fileID: 4430906093489138880, guid: 2f51fb10646f58c4fa4dc4630655da07,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
-      value: You're the only werid thing around here. Leave me alone.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4430906093489138880, guid: 2f51fb10646f58c4fa4dc4630655da07,
-        type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
@@ -2176,56 +1991,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
         type: 3}
-      propertyPath: dialoguePrompts.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
-        type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
-    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: -> Miss, there's something wrong with the right wing. I saw some fuel
-        leaking out of it.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
-      value: Stewardess
-      objectReference: {fileID: 0}
-    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: There's no reason to be alarmed sir, I'll have the crew check it out.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
-      value: You
-      objectReference: {fileID: 0}
-    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
-      value: You don't understand, this plane is going to explode very soon.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
-      value: Stewardess
-      objectReference: {fileID: 0}
-    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
-        type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
-      value: Sir, please calm down and go back to your seat. You're going to alarm
-        the other passengers.
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40424c425e529154397d6fb7daf47d99, type: 3}
 --- !u!4 &1246775778 stripped
