@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 7695712146682819129, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: NPC - Stewardess
       objectReference: {fileID: 0}
     - target: {fileID: 3294889348317983200, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
@@ -66,6 +66,77 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
+      value: -> Miss, there's something wrong with the right wing. I saw some fuel
+        leaking out of it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
+      value: Stewardess
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
+      value: There's no reason to be alarmed sir, I'll have the crew check it out.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
+      value: You don't understand, this plane is going to explode very soon.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
+      value: Stewardess
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
+      value: Sir, please calm down and go back to your seat. You're going to alarm
+        the other passengers.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
+      value: "-> Can I get some more coffee?\t"
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].SpeakerName
+      value: Stewardess
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
+      value: Right away sir, I'll bring it to your seat.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].DialogPrompt
+      value: "-> Where are we right now?\t"
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[0].SpeakerName
+      value: Stewardess
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[0].Sentence
+      value: "We're in the middle of the Atlantic Ocean. \nNothing but blue all around
+        us."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}

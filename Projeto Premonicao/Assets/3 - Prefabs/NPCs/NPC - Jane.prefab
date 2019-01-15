@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 7695712146682819129, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: NPC - Jane
       objectReference: {fileID: 0}
     - target: {fileID: 3294889348317983200, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
@@ -66,6 +66,73 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
+      value: -> Did you notice anything strange with the plane recently? I think we're
+        in danger.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
+      value: Jane
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
+      value: Nothing that caught my eye, no.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
+      value: Jane
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
+      value: But I did notice that the flight crew has a neat little closet where
+        they keep all of their stuff.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
+      value: Jane
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
+      value: I wonder what they have hidden away in there...
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
+      value: -> What do you know about planes?
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].SpeakerName
+      value: Jane
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
+      value: That they are terrible to sleep in, but at least we get some free movies.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[1].SpeakerName
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[1].Sentence
+      value: I meant what do you know about how a plane works?
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[2].SpeakerName
+      value: Jane
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[2].Sentence
+      value: Oh... Nothing really, but I know how to get the seat with the best leg
+        space.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
