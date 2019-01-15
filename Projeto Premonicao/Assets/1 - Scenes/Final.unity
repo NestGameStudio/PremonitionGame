@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2186,6 +2186,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
         type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
@@ -2223,6 +2228,42 @@ PrefabInstance:
     - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
         type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
+      value: Sir, please calm down and go back to your seat. You're going to alarm
+        the other passengers.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
+      value: -> Hi
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].SpeakerName
+      value: Stewardess
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
+      value: Hi.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[1].SpeakerName
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[1].Sentence
+      value: You don't understand, this plane is going to explode very soon.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[2].SpeakerName
+      value: Stewardess
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[2].Sentence
       value: Sir, please calm down and go back to your seat. You're going to alarm
         the other passengers.
       objectReference: {fileID: 0}
