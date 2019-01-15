@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -338,6 +338,205 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &887409078
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3733012478576344432, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_Name
+      value: Jorge
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.6376216
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.846771
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[3].dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].DialogPrompt
+      value: "Quantos camar\xF5es voc\xEA tem que comer?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[0].SpeakerName
+      value: Jorge
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[0].Sentence
+      value: Que?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[1].SpeakerName
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[1].Sentence
+      value: "Camar\xF5es, mano."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[3].DialogPrompt
+      value: "O que voc\xEA acha desse avi\xE3o?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[3].dialogue.Array.data[0].SpeakerName
+      value: Jorge
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[3].dialogue.Array.data[0].Sentence
+      value: "Isso era pra ser um avi\xE3o?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[3].dialogue.Array.data[1].SpeakerName
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[3].dialogue.Array.data[1].Sentence
+      value: "Acho que sim n\xE9."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[3].SpeakerName
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[3].Sentence
+      value: Vai me enterrar na areia?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
+      value: "Essa porra vai cair, mor\xF4?\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: MouseController
+      value: 
+      objectReference: {fileID: 8409819250006662329}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
+      value: "Ei, voc\xEA teria um minuto?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
+      value: "Voc\xEA gosta de Naruto?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
+      value: Po eu prefiro One Piece.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[1].Sentence
+      value: "Voc\xEA n\xE3o merece viver."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
+      value: Jorge
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].SpeakerName
+      value: Jorge
+      objectReference: {fileID: 0}
+    - target: {fileID: 6413964239880210429, guid: 1871a9b3d9e927e4880ab0738d916c17,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
+      value: "Falae meu mano.\t"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1871a9b3d9e927e4880ab0738d916c17, type: 3}
 --- !u!1001 &888892193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -699,7 +898,7 @@ Transform:
   - {fileID: 1436744193}
   - {fileID: 197502379}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &421563196133748082
 PrefabInstance:
@@ -945,7 +1144,7 @@ PrefabInstance:
     - target: {fileID: 6760407941313106372, guid: 830f00090e8191049aee230cc6b62719,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6760407941313106372, guid: 830f00090e8191049aee230cc6b62719,
         type: 3}
