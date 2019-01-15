@@ -2246,6 +2246,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd7829facede3b4408a5d1d73d53b2e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!20 &1421185956 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 1613024523, guid: b456326b6b5a27346b6b887a6f223c40,
+    type: 3}
+  m_PrefabInstance: {fileID: 1494866561}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1494866561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2316,7 +2322,7 @@ PrefabInstance:
     - target: {fileID: 1217180858, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
       propertyPath: cam
       value: 
-      objectReference: {fileID: 2032391117}
+      objectReference: {fileID: 1421185956}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
 --- !u!1 &1589256399
@@ -2494,7 +2500,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &2032391116
 AudioListener:
   m_ObjectHideFlags: 0
