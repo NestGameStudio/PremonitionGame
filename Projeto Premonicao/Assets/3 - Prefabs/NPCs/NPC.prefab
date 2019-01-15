@@ -168,9 +168,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MouseController: {fileID: 0}
-  dialogue:
-    name: Generic NPC
-    sentences:
-    - "Eu sou o conte\xFAdo da fala 1"
-    - "Prazer! Eu sou o NPC Gen\xE9rico"
-    - "Comi no cu de quem t\xE1 lendo"
+  dialoguePrompts:
+  - DialogPrompt: "Quem \xE9 voc\xEA?"
+    dialogue:
+    - SpeakerName: NPC
+      Sentence: "Sou eu bola de fogo e o calor t\xE1 de matar."
+    - SpeakerName: NPC
+      Sentence: "Vai ser na praia da barra que uma moda eu vou lan\xE7ar."
+    - SpeakerName: Player
+      Sentence: Vai me enterrar na areia?
+    - SpeakerName: NPC
+      Sentence: "N\xE3o, n\xE3o. Vou atolar."
+  - DialogPrompt: "Voc\xEA tamb\xE9m viu a tampa cair?"
+    dialogue:
+    - SpeakerName: NPC
+      Sentence: Que tampa?
+    - SpeakerName: Player
+      Sentence: A DO TEU CU ARROMBADO.

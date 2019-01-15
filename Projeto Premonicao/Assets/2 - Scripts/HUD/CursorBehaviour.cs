@@ -8,6 +8,7 @@ public enum MouseState {
 
 [RequireComponent(typeof(Image))]
 public class CursorBehaviour: MonoBehaviour {
+
     [SerializeField]
     private Sprite CursorImage;
     [SerializeField]

@@ -43,5 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77330c472d2860a4ea2b332150c60706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ConversationStarted: 0
   nameText: {fileID: 0}
   dialogueText: {fileID: 0}
+  dialogueOptions: {fileID: 0}
