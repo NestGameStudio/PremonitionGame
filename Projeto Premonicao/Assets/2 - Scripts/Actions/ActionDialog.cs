@@ -13,6 +13,8 @@ public class ActionDialog : ActionTrigger
     public override void DoAction() {
         base.DoAction();
 
+        MouseController.currentMouseState = MouseState.OnAction;
+
         function = EndAction;
         if (!StartDialogue) {
             DialogueManager.Instance.SelectPrompt(dialoguePrompts, function);
@@ -24,6 +26,8 @@ public class ActionDialog : ActionTrigger
 
     public override void EndAction() {
         base.EndAction();
+
+        //MouseController.currentMouseState = MouseState.Default;
 
         StartCoroutine(WaitUntilDialogIsFinished());
     }

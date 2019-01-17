@@ -2,10 +2,9 @@
 
 public class ActionTrigger : MonoBehaviour
 {
-    [SerializeField]
-    private CursorBehaviour MouseController;
+    public CursorBehaviour MouseController;
 
-    public virtual void DoAction() { MouseController.currentMouseState = MouseState.OnAction; }
+    public virtual void DoAction() {  }
 
     public virtual void EndAction() { MouseController.currentMouseState = MouseState.Default; }
 }

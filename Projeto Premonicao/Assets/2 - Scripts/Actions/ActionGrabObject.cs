@@ -12,7 +12,6 @@ public class ActionGrabObject : ActionTrigger {
         Debug.Log(interactiveObject.Description);
 
         InventoryManager.Instance.putIntemInInventory(interactiveObject);
-        interactiveObject.Model.transform.parent.parent.gameObject.SetActive(false);
     }
 
     public override void EndAction() {
