@@ -132,6 +132,12 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300150, guid: 332e6e33bcee1fd4fab281a7a20cf693, type: 3}
+--- !u!4 &24303885 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 863188146}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &26447097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1331,6 +1337,8 @@ Transform:
   - {fileID: 647127675}
   - {fileID: 52648457}
   - {fileID: 595930073}
+  - {fileID: 24303885}
+  - {fileID: 774478826}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2974,6 +2982,132 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300130, guid: 332e6e33bcee1fd4fab281a7a20cf693, type: 3}
+--- !u!1001 &774478825
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74188771}
+    m_Modifications:
+    - target: {fileID: 8985851663372089044, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC - Lucile
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.376015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.1159635
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30.337254
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619186001557556313, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619186001557556313, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619186001557556313, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: MouseController
+      value: 
+      objectReference: {fileID: 1249117191}
+    - target: {fileID: 1619186001557556313, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
+      value: Exucse me ma'am, have you noticed anything wrong with this flight?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619186001557556313, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
+      value: Lucille
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619186001557556313, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
+      value: "Aboslutely not, my dear. This flight has been most enjoyable. Why do
+        you ask?\t"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619186001557556313, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619186001557556313, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
+      value: It's nothing ma'am, I'm sorry to bother you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619186001557556313, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619186001557556313, guid: 4bc562c676d6b434bb715141fdfe08b2,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4bc562c676d6b434bb715141fdfe08b2, type: 3}
+--- !u!4 &774478826 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4305807867805660429, guid: 4bc562c676d6b434bb715141fdfe08b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 774478825}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &778022934 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100242, guid: 332e6e33bcee1fd4fab281a7a20cf693,
@@ -3074,6 +3208,110 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300144, guid: 332e6e33bcee1fd4fab281a7a20cf693, type: 3}
+--- !u!1001 &863188146
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74188771}
+    m_Modifications:
+    - target: {fileID: 2854243206768071164, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC - SleepyDude
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2193313
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.615893
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -27.221254
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983158985050133029, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571206170150005617, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571206170150005617, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571206170150005617, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571206170150005617, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
+      value: '*zzzzzzzzzz*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571206170150005617, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: MouseController
+      value: 
+      objectReference: {fileID: 1249117191}
+    - target: {fileID: 5571206170150005617, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
+      value: You
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571206170150005617, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
+      value: There's no use in waking this one up.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea0c980dc980cc74c9fbfd4bf97ecf2b, type: 3}
 --- !u!1 &888013308 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100108, guid: 332e6e33bcee1fd4fab281a7a20cf693,
