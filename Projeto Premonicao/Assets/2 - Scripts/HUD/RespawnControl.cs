@@ -12,6 +12,10 @@ public class RespawnControl : MonoBehaviour
     public Text TimeRegression;
     public float ExplosionTimer = 60f;
 
+    public AudioClip ExplosionSound;
+    private AudioSource audio;
+    public GameObject BlackScreen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +23,9 @@ public class RespawnControl : MonoBehaviour
         respawnRotation = GameObject.FindGameObjectWithTag("Player").transform.rotation;
 
         StartCoroutine(ExplosionTimeRegression());
+
+        audio = GetComponent<AudioSource>();
+        
     }
 
     IEnumerator ExplosionTimeRegression() {
@@ -33,7 +40,14 @@ public class RespawnControl : MonoBehaviour
                     TimeRegression.text = (ExplosionTimer - time).ToString();
 
             } else {
+
+                audio.Play();
+               
+                BlackScreen.SetActive(true);
+                yield return new WaitForSeconds(7);
+
                 Application.LoadLevel(Application.loadedLevel);
+                
                 break;
             }
 
