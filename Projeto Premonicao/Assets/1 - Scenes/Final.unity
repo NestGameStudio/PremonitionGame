@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4891,7 +4891,7 @@ PrefabInstance:
     - target: {fileID: 1208215918735545748, guid: 2f51fb10646f58c4fa4dc4630655da07,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20.259
+      value: -23.917
       objectReference: {fileID: 0}
     - target: {fileID: 1208215918735545748, guid: 2f51fb10646f58c4fa4dc4630655da07,
         type: 3}
@@ -4938,6 +4938,16 @@ PrefabInstance:
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
+    - target: {fileID: 8636434351433299266, guid: 2f51fb10646f58c4fa4dc4630655da07,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.449
+      objectReference: {fileID: 0}
+    - target: {fileID: 8636434351433299266, guid: 2f51fb10646f58c4fa4dc4630655da07,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.223
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f51fb10646f58c4fa4dc4630655da07, type: 3}
 --- !u!4 &1236262639 stripped
