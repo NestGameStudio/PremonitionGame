@@ -7,7 +7,8 @@ public class RespawnControl : MonoBehaviour
 {
     private Vector3 respawnPosition;
     private Quaternion respawnRotation;
-    private float time;
+    [HideInInspector]
+    public float time;
 
     public Text TimeRegression;
     public float ExplosionTimer = 60f;
@@ -26,6 +27,14 @@ public class RespawnControl : MonoBehaviour
 
         audio = GetComponent<AudioSource>();
         
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }
     }
 
     IEnumerator ExplosionTimeRegression() {

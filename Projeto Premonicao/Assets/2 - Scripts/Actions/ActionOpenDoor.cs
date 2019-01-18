@@ -7,9 +7,12 @@ public class ActionOpenDoor: ActionInteraction {
 
         if (InventoryManager.Instance.checkIfHaveItem(TriggerObject)) {
             this.gameObject.SetActive(false);
-            InventoryManager.Instance.removeObjectFromInventory(TriggerObject);
+            if (ConsumeItem)
+            {
+                InventoryManager.Instance.removeObjectFromInventory(TriggerObject);
+            }
         } else {
-            Debug.Log("Não Abriu");
+            Debug.Log("Porta Trancada");
         }
 
     }

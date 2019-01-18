@@ -5,5 +5,6 @@ using UnityEngine;
 public class ActionInteraction : ActionTrigger {
 
     public GameObject TriggerObject;
+    public bool ConsumeItem = true;
 
 }
