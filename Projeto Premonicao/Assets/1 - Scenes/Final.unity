@@ -1228,7 +1228,7 @@ PrefabInstance:
     - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8411376213932818089, guid: 1871a9b3d9e927e4880ab0738d916c17,
         type: 3}
@@ -1326,6 +1326,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1246775778}
+  - {fileID: 1098504468}
   - {fileID: 1236262639}
   - {fileID: 647127675}
   - {fileID: 52648457}
@@ -2363,7 +2364,7 @@ PrefabInstance:
     - target: {fileID: 6774245824022215817, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6774245824022215817, guid: 00ce2e1ea0c413e489f9a392c4b24da4,
         type: 3}
@@ -2574,7 +2575,7 @@ PrefabInstance:
     - target: {fileID: 4357690213127842919, guid: 8ed6ccc52302276489d061fffd7737b7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4357690213127842919, guid: 8ed6ccc52302276489d061fffd7737b7,
         type: 3}
@@ -3582,6 +3583,96 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300090, guid: 332e6e33bcee1fd4fab281a7a20cf693, type: 3}
+--- !u!1001 &1098504467
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 74188771}
+    m_Modifications:
+    - target: {fileID: 58964823665007502, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC - Stewardess 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.705015
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.4388928
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 28.259747
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646502340562854147, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646502340562854147, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: MouseController
+      value: 
+      objectReference: {fileID: 1249117191}
+    - target: {fileID: 7646502340562854147, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
+      value: '*The stewardess seems to '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d22d55c66d4eb124b843ac0c6e72f056, type: 3}
+--- !u!4 &1098504468 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5162278810188372055, guid: d22d55c66d4eb124b843ac0c6e72f056,
+    type: 3}
+  m_PrefabInstance: {fileID: 1098504467}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1102625954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100166, guid: 332e6e33bcee1fd4fab281a7a20cf693,
@@ -4000,7 +4091,7 @@ PrefabInstance:
     - target: {fileID: 1208215918735545748, guid: 2f51fb10646f58c4fa4dc4630655da07,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1208215918735545748, guid: 2f51fb10646f58c4fa4dc4630655da07,
         type: 3}
@@ -4040,7 +4131,7 @@ PrefabInstance:
     - target: {fileID: 1263091447941582744, guid: 40424c425e529154397d6fb7daf47d99,
         type: 3}
       propertyPath: m_Name
-      value: NPC - Stewardess
+      value: NPC - Stewardess 1
       objectReference: {fileID: 0}
     - target: {fileID: 6265074365539437633, guid: 40424c425e529154397d6fb7daf47d99,
         type: 3}
