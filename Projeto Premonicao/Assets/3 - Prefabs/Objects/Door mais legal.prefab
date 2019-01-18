@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1954790011}
   - component: {fileID: 1954790010}
   m_Layer: 0
-  m_Name: DoorHandleRig
+  m_Name: DoorKnobStructure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 5699243479591679814}
   - component: {fileID: 187154519578165198}
   m_Layer: 0
-  m_Name: DoorHandle1
+  m_Name: DoorKnob1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 7831942946038610963}
   - component: {fileID: 3007914795292526280}
   m_Layer: 0
-  m_Name: DoorHandle2
+  m_Name: DoorKnob2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
