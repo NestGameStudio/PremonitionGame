@@ -3657,13 +3657,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7646502340562854147, guid: d22d55c66d4eb124b843ac0c6e72f056,
         type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646502340562854147, guid: d22d55c66d4eb124b843ac0c6e72f056,
+        type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
     - target: {fileID: 7646502340562854147, guid: d22d55c66d4eb124b843ac0c6e72f056,
         type: 3}
       propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: '*The stewardess seems to '
+      value: '*The stewardess seems too lost in her own thoughts to notice you*'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d22d55c66d4eb124b843ac0c6e72f056, type: 3}
