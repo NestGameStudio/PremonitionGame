@@ -41,8 +41,7 @@ public class RespawnControl : MonoBehaviour
 
             } else {
 
-                audio.Play();
-               
+                audio.Play();               
                 BlackScreen.SetActive(true);
                 yield return new WaitForSeconds(7);
 
