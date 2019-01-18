@@ -163,7 +163,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 81
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -282,7 +282,7 @@ RectTransform:
   m_GameObject: {fileID: 134424991}
   m_LocalRotation: {x: 0, y: 0, z: 0.035509937, w: 0.9993694}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8012, y: 1.8012, z: 1.8012}
   m_Children: []
   m_Father: {fileID: 2140125560}
   m_RootOrder: 1
@@ -361,7 +361,7 @@ RectTransform:
   m_GameObject: {fileID: 227972278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8012, y: 1.8012, z: 1.8012}
   m_Children: []
   m_Father: {fileID: 2140125560}
   m_RootOrder: 0
@@ -495,16 +495,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038485622}
-  m_LocalRotation: {x: 0, y: 0, z: 0.033155207, w: 0.9994502}
+  m_LocalRotation: {x: 0, y: 0, z: 0.041875616, w: 0.99912286}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8012, y: 1.8012, z: 1.8012}
   m_Children: []
   m_Father: {fileID: 2140125560}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.8}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.8}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 427.6, y: -78.82}
+  m_AnchoredPosition: {x: 772.8, y: -121.4}
   m_SizeDelta: {x: 826.28, y: 400.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1038485624
@@ -724,7 +724,7 @@ RectTransform:
   m_GameObject: {fileID: 2003330870}
   m_LocalRotation: {x: 0, y: 0, z: 0.03489949, w: 0.99939084}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8012, y: 1.8012, z: 1.8012}
   m_Children:
   - {fileID: 1998626454}
   m_Father: {fileID: 2140125560}
@@ -985,10 +985,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1007,7 +1007,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
