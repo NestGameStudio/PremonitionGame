@@ -19,8 +19,12 @@ public class PlayerMovement: MonoBehaviour {
 
     // Run avery physics iteration
     private void FixedUpdate() {
-        PerformMovement();
-        PerformRotation();
+
+        if (!DialogueManager.Instance.DialogueSelection) {
+            PerformMovement();
+            PerformRotation();
+        }
+    
     }
 
 
@@ -36,6 +40,7 @@ public class PlayerMovement: MonoBehaviour {
 
     // Gets a rotation vector
     public void RotateCamera(Vector3 _cameraRotation) {
+
         cameraRotation = _cameraRotation;
     }
 
@@ -57,7 +62,18 @@ public class PlayerMovement: MonoBehaviour {
         rb.MoveRotation(rb.rotation * Quaternion.Euler(rotation));
 
         if (cam != null) {
-            cam.transform.Rotate(-cameraRotation);
+
+            float angle = cam.transform.localEulerAngles.x;
+
+            angle %= 360;
+            if (angle > 180) {
+                angle = angle - 360;
+            }
+            
+            // não permite que a camera faça uma rotação de 360
+            if (angle - cameraRotation.x + 90 < 180 && angle - cameraRotation.x + 90 > 0) {
+                 cam.transform.Rotate(-cameraRotation);
+            }
         }
 
     }

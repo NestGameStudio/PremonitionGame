@@ -49,6 +49,7 @@ public class CursorBehaviour: MonoBehaviour {
                 break;
             default:
                 this.GetComponent<Image>().enabled = true;
+                this.transform.position = new Vector3(Screen.width/2, Screen.height/2, 0);
                 break;
         }
 

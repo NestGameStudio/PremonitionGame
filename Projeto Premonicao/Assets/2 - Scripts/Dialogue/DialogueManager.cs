@@ -14,7 +14,8 @@ public class DialogueManager : MonoBehaviour
     private int maxDialogueOptions = 1;
 
     private DialoguePrompt[] dialoguePrompts;
-    private bool dialogueSelection = false;
+    [HideInInspector]
+    public bool DialogueSelection = false;
     private int currentSelectedPrompt;
 
 
@@ -41,7 +42,7 @@ public class DialogueManager : MonoBehaviour
             }
         } 
 
-        if (dialogueSelection) {
+        if (DialogueSelection) {
 
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetAxis("Mouse ScrollWheel") > 0f) {
 
@@ -68,7 +69,7 @@ public class DialogueManager : MonoBehaviour
 
                 StartDialogue(dialoguePrompts[currentSelectedPrompt].dialogue);
                 dialogueOptions.transform.GetChild(currentSelectedPrompt).GetComponent<Text>().fontStyle = FontStyle.Normal;
-                dialogueSelection = false;
+                DialogueSelection = false;
                 dialogueOptions.SetActiveRecursively(false);
             }
         }
@@ -105,7 +106,7 @@ public class DialogueManager : MonoBehaviour
         dialogueOptions.transform.parent.parent.gameObject.SetActive(true);
         dialogueOptions.SetActive(true);
 
-        dialogueSelection = true;
+        DialogueSelection = true;
 
     }
 
