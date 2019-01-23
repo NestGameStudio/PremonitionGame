@@ -218,6 +218,22 @@ ModelImporter:
     100424: Plane008
     100426: Plane009
     100428: Plane010
+    100430: Box132
+    100432: Box133
+    100434: Box134
+    100436: Box135
+    100438: Compartimento006
+    100440: Compartimento007
+    100442: Cylinder007
+    100444: Cylinder008
+    100446: Object060
+    100448: Object061
+    100450: Object062
+    100452: Object063
+    100454: Object064
+    100456: Plane011
+    100458: Plane012
+    100460: Plane013
     400000: //RootNode
     400002: Box001
     400004: Box002
@@ -433,6 +449,22 @@ ModelImporter:
     400424: Plane008
     400426: Plane009
     400428: Plane010
+    400430: Box132
+    400432: Box133
+    400434: Box134
+    400436: Box135
+    400438: Compartimento006
+    400440: Compartimento007
+    400442: Cylinder007
+    400444: Cylinder008
+    400446: Object060
+    400448: Object061
+    400450: Object062
+    400452: Object063
+    400454: Object064
+    400456: Plane011
+    400458: Plane012
+    400460: Plane013
     2100000: No Name
     2100002: Compartment
     2100004: Screen
@@ -643,6 +675,20 @@ ModelImporter:
     2300402: Plane008
     2300404: Plane009
     2300406: Plane010
+    2300408: Box132
+    2300410: Box133
+    2300412: Box134
+    2300414: Box135
+    2300416: Cylinder007
+    2300418: Cylinder008
+    2300420: Object060
+    2300422: Object061
+    2300424: Object062
+    2300426: Object063
+    2300428: Object064
+    2300430: Plane011
+    2300432: Plane012
+    2300434: Plane013
     3300000: Box001
     3300002: Box002
     3300004: Box003
@@ -847,6 +893,20 @@ ModelImporter:
     3300402: Plane008
     3300404: Plane009
     3300406: Plane010
+    3300408: Box132
+    3300410: Box133
+    3300412: Box134
+    3300414: Box135
+    3300416: Cylinder007
+    3300418: Cylinder008
+    3300420: Object060
+    3300422: Object061
+    3300424: Object062
+    3300426: Object063
+    3300428: Object064
+    3300430: Plane011
+    3300432: Plane012
+    3300434: Plane013
     4300000: Box073
     4300002: Box001
     4300004: Box002
@@ -1051,6 +1111,20 @@ ModelImporter:
     4300402: Cylinder002
     4300404: Box123
     4300406: Box122
+    4300408: Plane011
+    4300410: Object060
+    4300412: Object061
+    4300414: Plane012
+    4300416: Object062
+    4300418: Cylinder007
+    4300420: Box132
+    4300422: Box133
+    4300424: Object063
+    4300426: Plane013
+    4300428: Object064
+    4300430: Cylinder008
+    4300432: Box134
+    4300434: Box135
   externalObjects: {}
   materials:
     importMaterials: 1
