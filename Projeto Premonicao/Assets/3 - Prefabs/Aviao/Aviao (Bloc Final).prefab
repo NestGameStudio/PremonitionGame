@@ -10960,7 +10960,7 @@ GameObject:
   - component: {fileID: 9030849988219411706}
   - component: {fileID: 7423092830942516947}
   - component: {fileID: 7362006847401690443}
-  - component: {fileID: 1072657027}
+  - component: {fileID: 5663816808662714937}
   m_Layer: 0
   m_Name: Box135
   m_TagString: Untagged
@@ -11027,8 +11027,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1072657027
-BoxCollider:
+--- !u!64 &5663816808662714937
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11037,9 +11037,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.7882857, y: 1.4456308, z: 1.2518903}
-  m_Center: {x: -2.4597356, y: 0.43468237, z: 0.6259455}
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300434, guid: 332e6e33bcee1fd4fab281a7a20cf693, type: 3}
 --- !u!1 &1072657020
 GameObject:
   m_ObjectHideFlags: 0
