@@ -76,7 +76,7 @@ public class Keypad : MonoBehaviour
                 GUI.Box(new Rect(605, 205, 310, 25), input);
 
 
-                if (GUI.Button(new Rect(605, 235, 50, 50), "1"))
+                if (GUI.Button(new Rect(605, 235, 100, 100), "1"))
                 {
                     input = input + "1";
                 }
@@ -125,6 +125,12 @@ public class Keypad : MonoBehaviour
                 {
                     input = input + "0";
                 }
+
+                if (GUI.Button(new Rect(815, 550, 100, 100), "CLEAR"))
+                {
+                    input = "";
+                }
+
             }           
         }
     }
