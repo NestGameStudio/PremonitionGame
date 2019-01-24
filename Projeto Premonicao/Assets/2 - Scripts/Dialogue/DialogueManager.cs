@@ -35,6 +35,18 @@ public class DialogueManager : MonoBehaviour
         speakerName = new Queue<string>();
     }
 
+    public void MouseOverButton(int numberOption) {
+
+        dialogueOptions.transform.GetChild(currentSelectedPrompt + 1).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
+
+        currentSelectedPrompt = numberOption - 1;
+        dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Bold;
+    }
+
+    public void ButtonPressed() {
+        Debug.Log("AAAAAAAAAAAA");
+    }
+
     private void Update() {
         
         if (ConversationStarted) {
@@ -52,15 +64,17 @@ public class DialogueManager : MonoBehaviour
                 print(hit.collider.name);
             }
 
+
+
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetAxis("Mouse ScrollWheel") > 0f) {
 
                 if (currentSelectedPrompt > 0) {
                     currentSelectedPrompt--;
 
-                    dialogueOptions.transform.GetChild(currentSelectedPrompt + 1).GetComponent<Text>().fontStyle = FontStyle.Normal;
+                    dialogueOptions.transform.GetChild(currentSelectedPrompt + 1).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
                 }
 
-                dialogueOptions.transform.GetChild(currentSelectedPrompt).GetComponent<Text>().fontStyle = FontStyle.Bold;
+                dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Bold;
 
 
             } else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow) || Input.GetAxis("Mouse ScrollWheel") < 0f) {
@@ -68,15 +82,15 @@ public class DialogueManager : MonoBehaviour
                 if (currentSelectedPrompt < maxDialogueOptions) {
                     currentSelectedPrompt++;
 
-                    dialogueOptions.transform.GetChild(currentSelectedPrompt - 1).GetComponent<Text>().fontStyle = FontStyle.Normal;
+                    dialogueOptions.transform.GetChild(currentSelectedPrompt - 1).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
                 }
 
-                dialogueOptions.transform.GetChild(currentSelectedPrompt).GetComponent<Text>().fontStyle = FontStyle.Bold;
+                dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Bold;
 
             } else if (Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) {
 
                 StartDialogue(dialoguePrompts[currentSelectedPrompt].dialogue);
-                dialogueOptions.transform.GetChild(currentSelectedPrompt).GetComponent<Text>().fontStyle = FontStyle.Normal;
+                dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
                 DialogueSelection = false;
                 dialogueOptions.SetActiveRecursively(false);
             }
@@ -101,14 +115,14 @@ public class DialogueManager : MonoBehaviour
 
             if (index <= maxDialogueOptions) {
 
-                dialogueChild.GetComponent<Text>().text = dialoguePrompts[index].DialogPrompt;
-                dialogueChild.gameObject.SetActive(true);
+                dialogueChild.GetChild(0).GetComponent<Text>().text = dialoguePrompts[index].DialogPrompt;
+                dialogueChild.gameObject.SetActiveRecursively(true);
 
                 index++;
             }
         }
 
-        dialogueOptions.transform.GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Bold;
+        dialogueOptions.transform.GetChild(0).GetChild(0).GetComponentInChildren<Text>().fontStyle = FontStyle.Bold;
         currentSelectedPrompt = 0;
 
         dialogueOptions.transform.parent.parent.gameObject.SetActive(true);

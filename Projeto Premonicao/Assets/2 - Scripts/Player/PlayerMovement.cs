@@ -20,7 +20,7 @@ public class PlayerMovement: MonoBehaviour {
     // Run avery physics iteration
     private void FixedUpdate() {
 
-        if (!DialogueManager.Instance.DialogueSelection) {
+        if (!DialogueManager.Instance.DialogueSelection && !DialogueManager.Instance.ConversationStarted) {
             PerformMovement();
             PerformRotation();
         }
