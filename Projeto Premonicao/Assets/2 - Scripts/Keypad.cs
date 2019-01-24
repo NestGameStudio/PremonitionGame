@@ -71,7 +71,9 @@ public class Keypad : MonoBehaviour
 
             if (KeypadScreen)
             {
-                
+                KeypadOn = true;
+                cursor.GetComponent<CursorBehaviour>().currentMouseState = MouseState.OnPrompt;
+
                 GUI.Box(new Rect(600, 200, 320, 455), "");
                 GUI.Box(new Rect(605, 205, 310, 25), input);
 
