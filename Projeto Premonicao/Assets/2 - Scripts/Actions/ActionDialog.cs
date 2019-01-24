@@ -9,17 +9,26 @@ public class ActionDialog : ActionTrigger
 
     private EndOfDialogue function;
     private bool StartDialogue = false;
+    private bool CanStartDialogAgain = true;
+
+    private void Update() {
+        
+        if (!DialogueManager.Instance.DialogueSelection && StartDialogue) {
+            MouseController.currentMouseState = MouseState.OnDialog;
+        }
+    }
 
     public override void DoAction() {
         base.DoAction();
 
-        MouseController.currentMouseState = MouseState.OnAction;
+        MouseController.currentMouseState = MouseState.OnPrompt;
 
         function = EndAction;
-        if (!StartDialogue) {
+        if (CanStartDialogAgain) {
             DialogueManager.Instance.SelectPrompt(dialoguePrompts, function);
             StartDialogue = true;
-        }else {
+            CanStartDialogAgain = false;
+        } else {
             base.EndAction();
         }
     }
@@ -27,15 +36,15 @@ public class ActionDialog : ActionTrigger
     public override void EndAction() {
         base.EndAction();
 
-        //MouseController.currentMouseState = MouseState.Default;
-
+        MouseController.currentMouseState = MouseState.Default;
+        StartDialogue = false;
         StartCoroutine(WaitUntilDialogIsFinished());
     }
 
     IEnumerator WaitUntilDialogIsFinished() {
         
         yield return new WaitForSeconds(0.3f);
-        StartDialogue = false;
+        CanStartDialogAgain = true;
     }
 
 }

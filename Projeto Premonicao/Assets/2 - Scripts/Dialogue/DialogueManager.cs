@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -43,6 +44,13 @@ public class DialogueManager : MonoBehaviour
         } 
 
         if (DialogueSelection) {
+
+            RaycastHit hit;
+
+            Ray ray = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInteractivity>().cam.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit)) {
+                print(hit.collider.name);
+            }
 
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetAxis("Mouse ScrollWheel") > 0f) {
 

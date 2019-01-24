@@ -2,7 +2,8 @@
 using UnityEngine.UI;
 
 public enum MouseState {
-    OnAction,
+    OnPrompt,
+    OnDialog,
     Default
 }
 
@@ -16,7 +17,7 @@ public class CursorBehaviour: MonoBehaviour {
 
     private PlayerInteractivity interact;
 
-    public MouseState currentMouseState = MouseState.Default;
+    public MouseState currentMouseState;
 
     void Start() {
 
@@ -25,6 +26,8 @@ public class CursorBehaviour: MonoBehaviour {
 
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         interact = player.GetComponent<PlayerInteractivity>();
+
+        currentMouseState = MouseState.Default;
 
     }
 
@@ -44,12 +47,20 @@ public class CursorBehaviour: MonoBehaviour {
         }
 
         switch (currentMouseState) {
-            case MouseState.OnAction:
+            case MouseState.OnPrompt:
+                Cursor.lockState = CursorLockMode.None;
+                this.transform.position = Input.mousePosition;
+                // atualiza a posicao do cursor de acordo com o movimento e atualiza o dialogo em destaque
+                break;
+
+            case MouseState.OnDialog:
                 this.GetComponent<Image>().enabled = false;
                 break;
+
             default:
                 this.GetComponent<Image>().enabled = true;
                 this.transform.position = new Vector3(Screen.width/2, Screen.height/2, 0);
+                Cursor.lockState = CursorLockMode.Locked;
                 break;
         }
 
