@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
@@ -23,18 +24,18 @@ public class InventoryManager: MonoBehaviour {
     // lista de itens no inventário, a seleção deles faz aparecer em fade-in o nome e descrição que desaparece depois de um tempo e a seleção dos itens roda conforme o mouse scroll
 
     private void Update() {
-        
+
         if (!Keypad.Instance.KeypadOn && !DialogueManager.Instance.DialogueSelection) {
 
             if (Input.GetAxis("Mouse ScrollWheel") > 0f) {
 
                 if (currentItem < ObjectsInInventory.Count - 1) {
                     currentItem++;
-                    //HUDInventoryObjects.transform.GetChild(currentItem - 1).GetComponent<Image>().canvasRenderer.SetAlpha(0.5f);
                     HUDInventoryObjects.transform.GetChild(currentItem - 1).GetComponent<Image>().CrossFadeAlpha(0.5f, 0.3f, false);
                 }
 
                 HUDInventoryObjects.transform.GetChild(currentItem).GetComponent<Image>().CrossFadeAlpha(1f, 0.3f, false);
+                StartCoroutine(ShowName(HUDInventoryObjects.transform.GetChild(currentItem).transform.GetChild(0).gameObject, HUDInventoryObjects.transform.GetChild(currentItem).transform.GetChild(1).gameObject));
 
 
             } else if (Input.GetAxis("Mouse ScrollWheel") < 0f) {
@@ -45,8 +46,22 @@ public class InventoryManager: MonoBehaviour {
                 }
 
                 HUDInventoryObjects.transform.GetChild(currentItem).GetComponent<Image>().CrossFadeAlpha(1f, 0.3f, false);
+
+                StartCoroutine(ShowName(HUDInventoryObjects.transform.GetChild(currentItem).transform.GetChild(0).gameObject, HUDInventoryObjects.transform.GetChild(currentItem).transform.GetChild(1).gameObject));
             }
         }
+
+    }
+
+    IEnumerator ShowName(GameObject name, GameObject description) {
+
+        name.GetComponent<Text>().CrossFadeAlpha(1f, 0.8f, false);
+        description.GetComponent<Text>().CrossFadeAlpha(1f, 0.8f, false);
+
+        yield return new WaitForSeconds(1f);
+
+        name.GetComponent<Text>().CrossFadeAlpha(0f, 0.8f, false);
+        description.GetComponent<Text>().CrossFadeAlpha(0f, 0.8f, false);
 
     }
 
@@ -63,11 +78,17 @@ public class InventoryManager: MonoBehaviour {
                     if (!inventoryObject.gameObject.activeSelf) {
                         inventoryObject.GetComponent<Image>().sprite = interactiveObject.HUDSprite;
                         inventoryObject.GetComponent<Image>().useSpriteMesh = true;
+                        inventoryObject.transform.GetChild(0).GetComponent<Text>().text = interactiveObject.Name;
+                        inventoryObject.transform.GetChild(1).GetComponent<Text>().text = interactiveObject.Description;
+
                         if (ObjectsInInventory.Count == 1) {
                             inventoryObject.GetComponent<Image>().CrossFadeAlpha(1f, 0.0f, false);
                         } else {
                             inventoryObject.GetComponent<Image>().CrossFadeAlpha(0.5f, 0.3f, false);
                         }
+
+                        StartCoroutine(ShowName(inventoryObject.transform.GetChild(0).gameObject, inventoryObject.transform.GetChild(1).gameObject));
+
                         interactiveObject.Model.transform.parent.parent.gameObject.SetActive(false);
                         inventoryObject.gameObject.SetActive(true);
                         break;
