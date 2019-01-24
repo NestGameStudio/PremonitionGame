@@ -2,7 +2,7 @@
 
 public class ActionOpenDoor: ActionInteraction {
 
-    public MonologueActionTrigger Monologue;
+    public ActionDialog Monologue;
 
     public override void DoAction() {
         base.DoAction();
@@ -14,9 +14,7 @@ public class ActionOpenDoor: ActionInteraction {
                 InventoryManager.Instance.removeObjectFromInventory(TriggerObject);
             }
         } else {
-            Monologue.PlayAction();
-
-            Debug.Log("Porta Trancada");
+            Monologue.DoAction();
         }
 
     }

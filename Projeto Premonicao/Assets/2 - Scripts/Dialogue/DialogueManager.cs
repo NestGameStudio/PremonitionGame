@@ -40,6 +40,9 @@ public class DialogueManager : MonoBehaviour
         if (ConversationStarted) {
             if (Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) {
                 DisplayNextSentence();
+
+            } else if (Input.GetKeyDown(KeyCode.Escape)) {
+                EndDialog();
             }
         } 
 
@@ -72,6 +75,11 @@ public class DialogueManager : MonoBehaviour
                 dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
                 DialogueSelection = false;
                 dialogueOptions.SetActiveRecursively(false);
+
+            } else if (Input.GetKeyDown(KeyCode.Escape)) {
+                DialogueSelection = false;
+                dialogueOptions.SetActiveRecursively(false);
+                EndDialog();
             }
         }
 

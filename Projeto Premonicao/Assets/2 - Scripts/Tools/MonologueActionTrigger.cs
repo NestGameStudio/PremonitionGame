@@ -5,9 +5,6 @@ using UnityEngine;
 public class MonologueActionTrigger : MonoBehaviour
 {
     public void PlayAction() {
-        if (this.GetComponent<ActionTrigger>() != null)
-            this.GetComponent<ActionTrigger>().DoAction();
-        else
-            Debug.Log("Não tem action saporra");
+        this.GetComponent<ActionTrigger>().DoAction();
     }
 }
