@@ -12,7 +12,7 @@ public class PlayerMovement: MonoBehaviour {
 
     private Rigidbody rb;
 
-
+    
     private void Start() {
         rb = GetComponent<Rigidbody>();
     }
@@ -20,7 +20,8 @@ public class PlayerMovement: MonoBehaviour {
     // Run avery physics iteration
     private void FixedUpdate() {
 
-        if (!DialogueManager.Instance.DialogueSelection && !DialogueManager.Instance.ConversationStarted) {
+        if ((!DialogueManager.Instance.DialogueSelection && !DialogueManager.Instance.ConversationStarted) && !Keypad.Instance.KeypadOn)
+        {
             PerformMovement();
             PerformRotation();
         }
