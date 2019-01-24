@@ -12,10 +12,42 @@ public class InventoryManager: MonoBehaviour {
 
     private List<Object> ObjectsInInventory = new List<Object>();
 
+    private int currentItem = 0;
+
     public static InventoryManager Instance { get { return instance; } }
 
     private void Awake() {
         instance = this;
+    }
+
+    // lista de itens no inventário, a seleção deles faz aparecer em fade-in o nome e descrição que desaparece depois de um tempo e a seleção dos itens roda conforme o mouse scroll
+
+    private void Update() {
+        
+        if (!Keypad.Instance.KeypadOn && !DialogueManager.Instance.DialogueSelection) {
+
+            if (Input.GetAxis("Mouse ScrollWheel") > 0f) {
+
+                if (currentItem < ObjectsInInventory.Count - 1) {
+                    currentItem++;
+                    //HUDInventoryObjects.transform.GetChild(currentItem - 1).GetComponent<Image>().canvasRenderer.SetAlpha(0.5f);
+                    HUDInventoryObjects.transform.GetChild(currentItem - 1).GetComponent<Image>().CrossFadeAlpha(0.5f, 0.3f, false);
+                }
+
+                HUDInventoryObjects.transform.GetChild(currentItem).GetComponent<Image>().CrossFadeAlpha(1f, 0.3f, false);
+
+
+            } else if (Input.GetAxis("Mouse ScrollWheel") < 0f) {
+
+                if (currentItem > 0) {
+                    currentItem--;
+                    HUDInventoryObjects.transform.GetChild(currentItem + 1).GetComponent<Image>().CrossFadeAlpha(0.5f, 0.3f, false);
+                }
+
+                HUDInventoryObjects.transform.GetChild(currentItem).GetComponent<Image>().CrossFadeAlpha(1f, 0.3f, false);
+            }
+        }
+
     }
 
     public void putIntemInInventory(Object interactiveObject) {
@@ -31,6 +63,11 @@ public class InventoryManager: MonoBehaviour {
                     if (!inventoryObject.gameObject.activeSelf) {
                         inventoryObject.GetComponent<Image>().sprite = interactiveObject.HUDSprite;
                         inventoryObject.GetComponent<Image>().useSpriteMesh = true;
+                        if (ObjectsInInventory.Count == 1) {
+                            inventoryObject.GetComponent<Image>().CrossFadeAlpha(1f, 0.0f, false);
+                        } else {
+                            inventoryObject.GetComponent<Image>().CrossFadeAlpha(0.5f, 0.3f, false);
+                        }
                         interactiveObject.Model.transform.parent.parent.gameObject.SetActive(false);
                         inventoryObject.gameObject.SetActive(true);
                         break;
