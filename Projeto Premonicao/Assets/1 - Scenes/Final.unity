@@ -2636,20 +2636,32 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8172942001311691211, guid: 0ce7763ecda9eb94393ba5d513584ea2,
+        type: 3}
+      propertyPath: CursorImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 62127a0a9aa50cb4bb804e90ad1b9cfe,
+        type: 3}
+    - target: {fileID: 8172942001311691211, guid: 0ce7763ecda9eb94393ba5d513584ea2,
+        type: 3}
+      propertyPath: ClickingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7122196b9e5fd8b40876dd495d2717f7,
+        type: 3}
     - target: {fileID: 421563196091694465, guid: 0ce7763ecda9eb94393ba5d513584ea2,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 421563196091694465, guid: 0ce7763ecda9eb94393ba5d513584ea2,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 421563196091694465, guid: 0ce7763ecda9eb94393ba5d513584ea2,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8172942002065346293, guid: 0ce7763ecda9eb94393ba5d513584ea2,
         type: 3}
@@ -2943,6 +2955,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 421563196091694470, guid: 0ce7763ecda9eb94393ba5d513584ea2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 62127a0a9aa50cb4bb804e90ad1b9cfe,
+        type: 3}
     - target: {fileID: 8172942002005673046, guid: 0ce7763ecda9eb94393ba5d513584ea2,
         type: 3}
       propertyPath: m_IsActive
