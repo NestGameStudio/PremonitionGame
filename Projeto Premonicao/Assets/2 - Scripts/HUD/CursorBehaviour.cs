@@ -14,6 +14,8 @@ public class CursorBehaviour: MonoBehaviour {
     private Sprite CursorImage;
     [SerializeField]
     private Sprite ClickingImage;
+    [SerializeField]
+    private Sprite InteractiveImage;
 
     private PlayerInteractivity interact;
 
@@ -33,12 +35,20 @@ public class CursorBehaviour: MonoBehaviour {
 
     void Update()
     {
+        if (interact.CheckIfHitObject()) {
+            if (!DialogueManager.Instance.DialogueSelection && !DialogueManager.Instance.ConversationStarted) {
+                this.GetComponent<Image>().sprite = InteractiveImage;
+            }
+        } else {
+            this.GetComponent<Image>().sprite = CursorImage;
+        }
+
         if (Input.GetMouseButtonDown(0)) {
             this.GetComponent<Image>().sprite = ClickingImage;
 
             if (currentMouseState == MouseState.Default) {
                 if (interact != null) {
-                    interact.CheckIfHitObject();
+                    interact.TriggerActionOnGameObject();
                 }
             }
             
@@ -50,7 +60,6 @@ public class CursorBehaviour: MonoBehaviour {
             case MouseState.OnPrompt:
                 Cursor.lockState = CursorLockMode.None;
                 this.transform.position = Input.mousePosition;
-                // atualiza a posicao do cursor de acordo com o movimento e atualiza o dialogo em destaque
                 break;
 
             case MouseState.OnDialog:

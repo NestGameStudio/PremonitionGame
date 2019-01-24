@@ -35,16 +35,6 @@ public class DialogueManager : MonoBehaviour
         speakerName = new Queue<string>();
     }
 
-    public void MouseOverButton(int numberOption) {
-
-        foreach (Transform dialogueChild in dialogueOptions.GetComponentInChildren<Transform>(true)) {
-            dialogueChild.GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
-        }
-
-        currentSelectedPrompt = numberOption - 1;
-        dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Bold;
-    }
-
     private void Update() {
         
         if (ConversationStarted) {
@@ -86,6 +76,18 @@ public class DialogueManager : MonoBehaviour
         }
 
     }
+
+
+    public void MouseOverButton(int numberOption) {
+
+        foreach (Transform dialogueChild in dialogueOptions.GetComponentInChildren<Transform>(true)) {
+            dialogueChild.GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
+        }
+
+        currentSelectedPrompt = numberOption - 1;
+        dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Bold;
+    }
+
 
     public void SelectPrompt(DialoguePrompt[] _dialoguePrompts, EndOfDialogue endAction) {
 

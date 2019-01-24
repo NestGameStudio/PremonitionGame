@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class PlayerInteractivity : MonoBehaviour
 {
+    private ActionTrigger actionFromObject;
     private int layerMask;
 
     public GameObject cam;
+
+
 
     [SerializeField]
     private float InteractivityDistance = 10f;
@@ -17,7 +20,7 @@ public class PlayerInteractivity : MonoBehaviour
     }
 
     // Cria um raio em frente ao player e verifica se há colisão com algum objeto interativo
-    public void CheckIfHitObject() {
+    public bool CheckIfHitObject() {
 
         Vector3 fwd = cam.transform.TransformDirection(Vector3.forward);
         
@@ -26,11 +29,23 @@ public class PlayerInteractivity : MonoBehaviour
         if (Physics.Raycast(cam.transform.position, fwd, out hit, InteractivityDistance, layerMask)) {
         
             // Se o objeto possuir esse script ou seus scripts herdeiros então ele é interativo
-            ActionTrigger actionFromObject = hit.transform.GetComponent<ActionTrigger>();
+            actionFromObject = hit.transform.GetComponent<ActionTrigger>();
 
             if (actionFromObject != null) {
-                actionFromObject.DoAction();
+                return true;
+            } else {
+                return false;
             }
         }
+
+        return false;
+    }
+
+    public void TriggerActionOnGameObject() {
+
+        if (CheckIfHitObject()) {
+            actionFromObject.DoAction();
+        }
+
     }
 }

@@ -2777,6 +2777,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8172942001311691211, guid: 0ce7763ecda9eb94393ba5d513584ea2,
+        type: 3}
+      propertyPath: InteractiveImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f35560889c9af7549803076c2341ee54,
+        type: 3}
     - target: {fileID: 421563196653172051, guid: 0ce7763ecda9eb94393ba5d513584ea2,
         type: 3}
       propertyPath: m_ScaleFactor
