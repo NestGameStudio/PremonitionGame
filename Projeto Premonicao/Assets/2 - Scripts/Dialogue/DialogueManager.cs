@@ -37,7 +37,9 @@ public class DialogueManager : MonoBehaviour
 
     public void MouseOverButton(int numberOption) {
 
-        dialogueOptions.transform.GetChild(currentSelectedPrompt + 1).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
+        foreach (Transform dialogueChild in dialogueOptions.GetComponentInChildren<Transform>()) {
+            dialogueChild.GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
+        }
 
         currentSelectedPrompt = numberOption - 1;
         dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Bold;
@@ -56,15 +58,6 @@ public class DialogueManager : MonoBehaviour
         } 
 
         if (DialogueSelection) {
-
-            RaycastHit hit;
-
-            Ray ray = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerInteractivity>().cam.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit)) {
-                print(hit.collider.name);
-            }
-
-
 
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetAxis("Mouse ScrollWheel") > 0f) {
 
