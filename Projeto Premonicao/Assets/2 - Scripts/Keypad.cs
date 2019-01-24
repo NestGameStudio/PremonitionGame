@@ -58,7 +58,7 @@ public class Keypad : MonoBehaviour
         {
             if (OnTrigger)
             {
-                GUI.Box(new Rect(0, 0, 200, 25), "Press 'E' to open keypad");
+                GUI.Box(new Rect(675, 150, 200, 25), "Press 'E' to open keypad");
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
@@ -130,6 +130,14 @@ public class Keypad : MonoBehaviour
                 {
                     input = "";
                 }
+
+                if (GUI.Button(new Rect(605, 550, 100, 100), "EXIT"))
+                {
+                    KeypadScreen = false;
+                    KeypadOn = false;
+                    cursor.GetComponent<CursorBehaviour>().currentMouseState = MouseState.Default;
+                }
+
 
             }           
         }

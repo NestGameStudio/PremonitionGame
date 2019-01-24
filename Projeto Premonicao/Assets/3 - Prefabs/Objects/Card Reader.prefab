@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 6394649239710077107}
   - component: {fileID: 8294888116582429175}
   - component: {fileID: 1317830617372877956}
-  - component: {fileID: 1981739199}
+  - component: {fileID: 1795672428}
   m_Layer: 0
   m_Name: Card Reader Body
   m_TagString: Untagged
@@ -213,9 +213,9 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 38.443245, y: 1, z: 4.815287}
-  m_Center: {x: 18.721724, y: 0, z: 0.68262446}
---- !u!114 &1981739199
+  m_Size: {x: 19.616241, y: 1, z: 4.5199356}
+  m_Center: {x: 9.308219, y: 0, z: 0.08010048}
+--- !u!114 &1795672428
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
