@@ -6064,9 +6064,54 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
         type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
+      value: -> Tell her about the right wing.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
+      value: I'm sure there's nothing wrong, I'll have the crew check it out.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
+      value: "-> Ask for more coffee.\t"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
+      value: Right away, I'll bring it to your seat.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].DialogPrompt
+      value: "-> Ask about location.\t"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[1].SpeakerName
+      value: Stewardess
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[1].Sentence
+      value: It should be at least another 5 hours before we reach our destination.
+      objectReference: {fileID: 0}
     - target: {fileID: 3597449505798073495, guid: 40424c425e529154397d6fb7daf47d99,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -6472,6 +6517,14 @@ PrefabInstance:
     - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
       propertyPath: m_Radius
       value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
+      propertyPath: mouseSensitivity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
+      propertyPath: speed
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
@@ -7526,6 +7579,32 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!1 &1858056101 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8213629846813175504, guid: 31a9976f25f04044abf92111a80cb7cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 8042032209452614418}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1858056103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858056101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f508b6c96b78e44832ebd7cb4ba990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurPassword: 12345
+  input: 
+  OnTrigger: 0
+  DoorOpen: 0
+  KeypadScreen: 0
+  door: {fileID: 1635845529}
+  cursor: {fileID: 1111960771}
+  KeypadOn: 0
 --- !u!1 &1860111032
 GameObject:
   m_ObjectHideFlags: 0
@@ -8843,5 +8922,6 @@ PrefabInstance:
       propertyPath: cursor
       value: 
       objectReference: {fileID: 1111960771}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1795672428, guid: 31a9976f25f04044abf92111a80cb7cd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 31a9976f25f04044abf92111a80cb7cd, type: 3}
