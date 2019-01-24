@@ -540,7 +540,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ultra wip version
+  m_Text: ultra wip version (v0.2)
 --- !u!222 &1038485625
 CanvasRenderer:
   m_ObjectHideFlags: 0
