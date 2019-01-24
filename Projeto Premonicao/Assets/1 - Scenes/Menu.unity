@@ -495,16 +495,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038485622}
-  m_LocalRotation: {x: 0, y: 0, z: 0.041875616, w: 0.99912286}
+  m_LocalRotation: {x: 0, y: 0, z: 0.047106404, w: 0.9988899}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.8012, y: 1.8012, z: 1.8012}
   m_Children: []
   m_Father: {fileID: 2140125560}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.8}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.4}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 772.8, y: -121.4}
+  m_AnchoredPosition: {x: 1427.6, y: -59.6}
   m_SizeDelta: {x: 826.28, y: 400.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1038485624
@@ -534,13 +534,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 210
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ultra wip version
+  m_Text: ultra wip version (v0.2)
 --- !u!222 &1038485625
 CanvasRenderer:
   m_ObjectHideFlags: 0
