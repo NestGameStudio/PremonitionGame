@@ -25,7 +25,9 @@ public class DialogueManager : MonoBehaviour
 
     public Text nameText;
     public Text dialogueText;
+    public Text dialogueHeader;
     public GameObject dialogueOptions;
+
 
     public static DialogueManager Instance { get { return instance; } }
 
@@ -97,7 +99,10 @@ public class DialogueManager : MonoBehaviour
     }
 
 
-    public void SelectPrompt(DialoguePrompt[] _dialoguePrompts, EndOfDialogue endAction) {
+    public void SelectPrompt(DialoguePrompt[] _dialoguePrompts, EndOfDialogue endAction, string HeaderPrompt) {
+
+        dialogueHeader.text = HeaderPrompt;
+        dialogueHeader.gameObject.SetActive(true);
 
         nameText.transform.parent.gameObject.SetActive(false);
 

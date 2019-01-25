@@ -5,6 +5,9 @@ public delegate void EndOfDialogue();
 
 public class ActionDialog : ActionTrigger
 {
+    [TextArea(1,3)]
+    public string PrompHeader;
+
     public DialoguePrompt[] dialoguePrompts;
 
     private EndOfDialogue function;
@@ -25,7 +28,7 @@ public class ActionDialog : ActionTrigger
 
         function = EndAction;
         if (CanStartDialogAgain) {
-            DialogueManager.Instance.SelectPrompt(dialoguePrompts, function);
+            DialogueManager.Instance.SelectPrompt(dialoguePrompts, function, PrompHeader);
             StartDialogue = true;
             CanStartDialogAgain = false;
         } else {
