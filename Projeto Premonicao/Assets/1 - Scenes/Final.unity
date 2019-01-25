@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2938,16 +2938,16 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 781591131}
-    - target: {fileID: 5446646207876835100, guid: 0ce7763ecda9eb94393ba5d513584ea2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7171398625486303892, guid: 0ce7763ecda9eb94393ba5d513584ea2,
         type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 781591131}
+    - target: {fileID: 5446646207876835100, guid: 0ce7763ecda9eb94393ba5d513584ea2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ce7763ecda9eb94393ba5d513584ea2, type: 3}
 --- !u!114 &526273774 stripped
@@ -6982,6 +6982,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.98800004
       objectReference: {fileID: 0}
+    - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
+      propertyPath: m_Radius
+      value: 0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
+      propertyPath: m_Height
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
+      propertyPath: m_Center.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
+      propertyPath: mouseSensitivity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1613024521, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
@@ -7013,26 +7033,6 @@ PrefabInstance:
     - target: {fileID: 1613024521, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: mouseSensitivity
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: speed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_Radius
-      value: 0.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_Height
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_Center.y
-      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
@@ -8856,7 +8856,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990300877}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 41f93d5108c004146b0e79ba1fc4896a, type: 2}
   m_CullingMode: 0
@@ -9292,6 +9292,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainScripts
       objectReference: {fileID: 0}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 526273775}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 526273774}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: dialogueOptions
+      value: 
+      objectReference: {fileID: 526273776}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: dialogueHeader
+      value: 
+      objectReference: {fileID: 1161258836}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: TimeRegression
+      value: 
+      objectReference: {fileID: 1342628004}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: BlackScreen
+      value: 
+      objectReference: {fileID: 1696020759}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: ExplosionTimer
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 6760407941313106372, guid: 830f00090e8191049aee230cc6b62719,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9346,38 +9378,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: nameText
-      value: 
-      objectReference: {fileID: 526273775}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: dialogueText
-      value: 
-      objectReference: {fileID: 526273774}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: dialogueOptions
-      value: 
-      objectReference: {fileID: 526273776}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: dialogueHeader
-      value: 
-      objectReference: {fileID: 1161258836}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: TimeRegression
-      value: 
-      objectReference: {fileID: 1342628004}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: BlackScreen
-      value: 
-      objectReference: {fileID: 1696020759}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: ExplosionTimer
-      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2140493957, guid: 830f00090e8191049aee230cc6b62719, type: 3}
       propertyPath: HUDInventoryObjects
