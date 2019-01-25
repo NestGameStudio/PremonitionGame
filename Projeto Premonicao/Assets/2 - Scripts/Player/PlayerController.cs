@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour {
         float rotationDirection = Input.GetAxisRaw("Mouse X"); // Y axis
 
         // - Want to apply the rotation to the camera, not the player, só ir won't mess up with the translation
-        Vector3 rotation = new Vector3(0f, rotationDirection, 0f) * mouseSensitivity;
+        Vector3 rotation = new Vector3(0f, rotationDirection, 0f) * (mouseSensitivity*50) * Time.deltaTime;
 
         // - Apply rotation
         movement.Rotate(rotation);
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour {
         // 3 - calculate camera rotation as a 3D Vector (turning around)
         float cameraRotationDirection = Input.GetAxisRaw("Mouse Y"); // X axis
 
-        Vector3 cameraRotation = new Vector3(cameraRotationDirection, 0f, 0f) * mouseSensitivity;
+        Vector3 cameraRotation = new Vector3(cameraRotationDirection, 0f, 0f) * (mouseSensitivity*50) * Time.deltaTime;
 
         // - Apply camera rotation
         movement.RotateCamera(cameraRotation);
