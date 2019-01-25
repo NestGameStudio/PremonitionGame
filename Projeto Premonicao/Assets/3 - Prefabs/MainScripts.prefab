@@ -47,9 +47,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77330c472d2860a4ea2b332150c60706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DialogueSelection: 0
   ConversationStarted: 0
   nameText: {fileID: 0}
   dialogueText: {fileID: 0}
+  dialogueHeader: {fileID: 0}
   dialogueOptions: {fileID: 0}
 --- !u!82 &2140493959
 AudioSource:
@@ -159,8 +161,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835204dae12f8e44ebe173019b91f13a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  time: 0
   TimeRegression: {fileID: 0}
-  ExplosionTimer: 60
+  ExplosionTimer: 120
   ExplosionSound: {fileID: 8300000, guid: 0b772a7f4b0b85e46b51e5d93c5d9df9, type: 3}
   BlackScreen: {fileID: 0}
 --- !u!114 &2140493960
@@ -191,3 +194,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxNumOfObjects: 5
   HUDInventoryObjects: {fileID: 0}
+  ItemDetail: {fileID: 0}
