@@ -20,6 +20,10 @@ public class PlayerMovement: MonoBehaviour {
         rb = GetComponent<Rigidbody>();
     }
 
+    public void deactivateInitialCutscene() {
+        InitialCutscene = false;
+    }
+
     // Run avery physics iteration
     private void FixedUpdate() {
 
