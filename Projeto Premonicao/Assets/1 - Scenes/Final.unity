@@ -5826,7 +5826,7 @@ PrefabInstance:
     - target: {fileID: 7646502340562854147, guid: d22d55c66d4eb124b843ac0c6e72f056,
         type: 3}
       propertyPath: dialoguePrompts.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7646502340562854147, guid: d22d55c66d4eb124b843ac0c6e72f056,
         type: 3}
@@ -5841,7 +5841,7 @@ PrefabInstance:
     - target: {fileID: 7646502340562854147, guid: d22d55c66d4eb124b843ac0c6e72f056,
         type: 3}
       propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: 
+      value: '*The stewardess seems too lost in her own thoughts to notice you*'
       objectReference: {fileID: 0}
     - target: {fileID: 7646502340562854147, guid: d22d55c66d4eb124b843ac0c6e72f056,
         type: 3}
