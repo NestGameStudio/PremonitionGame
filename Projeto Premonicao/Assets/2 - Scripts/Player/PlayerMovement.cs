@@ -10,6 +10,9 @@ public class PlayerMovement: MonoBehaviour {
     private Vector3 rotation = Vector3.zero;
     private Vector3 cameraRotation = Vector3.zero;
 
+    [HideInInspector]
+    public bool InitialCutscene = true;
+
     private Rigidbody rb;
 
     
@@ -17,10 +20,14 @@ public class PlayerMovement: MonoBehaviour {
         rb = GetComponent<Rigidbody>();
     }
 
+    public void deactivateInitialCutscene() {
+        InitialCutscene = false;
+    }
+
     // Run avery physics iteration
     private void FixedUpdate() {
 
-        if ((!DialogueManager.Instance.DialogueSelection && !DialogueManager.Instance.ConversationStarted) && !Keypad.Instance.KeypadOn)
+        if ((!DialogueManager.Instance.DialogueSelection && !DialogueManager.Instance.ConversationStarted) && !Keypad.Instance.KeypadOn && !InitialCutscene)
         {
             PerformMovement();
             PerformRotation();
