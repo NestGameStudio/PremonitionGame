@@ -1,5 +1,84 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1153819505
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1989549772386711101}
+    m_Modifications:
+    - target: {fileID: 5001464734140610712, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_Name
+      value: Character 2 - Female Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.181
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.10601946
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.69911367
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.69911367
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.10601946
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 162.75401
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8540b0c0c043afa439217d712a68f71a, type: 3}
 --- !u!1001 &8884422935986863521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,7 +89,7 @@ PrefabInstance:
     - target: {fileID: 7695712146682819129, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
       propertyPath: m_Name
-      value: NPC - Stewardess
+      value: NPC - Stewardess 1
       objectReference: {fileID: 0}
     - target: {fileID: 3294889348317983200, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
@@ -73,7 +152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.size
@@ -81,41 +160,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: -> Miss, there's something wrong with the right wing. I saw some fuel
-        leaking out of it.
+      value: -> Talk about the wing.
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
-      value: Stewardess
+      value: Stewardess Monica
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: There's no reason to be alarmed sir, I'll have the crew check it out.
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
-      value: You
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
-      value: You don't understand, this plane is going to explode very soon.
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
-      value: Stewardess
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
-      value: Sir, please calm down and go back to your seat. You're going to alarm
-        the other passengers.
+      value: I'm sure there's nothing to worry about, I'll have the crew check it
+        out.
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
-      value: "-> Can I get some more coffee?\t"
+      value: "-> Ask for more coffee.\t"
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].SpeakerName
@@ -123,11 +185,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
-      value: Right away sir, I'll bring it to your seat.
+      value: Right away, I'll bring it to your seat.
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[2].DialogPrompt
-      value: "-> Where are we right now?\t"
+      value: "-> Ask about location.\t"
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[0].SpeakerName
@@ -138,5 +200,24 @@ PrefabInstance:
       value: "We're in the middle of the Atlantic Ocean. \nNothing but blue all around
         us."
       objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[1].SpeakerName
+      value: Stewardess
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[1].Sentence
+      value: It should be at least another 5 hours before we reach our destination.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367820843834890124, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+--- !u!4 &1989549772386711101 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6978190650663881628, guid: 8b1106e7586d9154b94600d3541e82aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 8884422935986863521}
+  m_PrefabAsset: {fileID: 0}

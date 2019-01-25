@@ -1,5 +1,84 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1496825678
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6749276196632506344}
+    m_Modifications:
+    - target: {fileID: 7303744210352545211, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_Name
+      value: Character 2 - Masculine Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7394639
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579432007681373269, guid: a8f8d797a0bb14742a303f0c9b6c3439,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.540001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a8f8d797a0bb14742a303f0c9b6c3439, type: 3}
 --- !u!1001 &4430906093438395508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67,9 +146,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5379403336769065270, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.223
+      objectReference: {fileID: 0}
+    - target: {fileID: 5379403336769065270, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.449
+      objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.size
@@ -77,7 +166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: -> Excuse me, sir. Did you happen to notice anything weird with the plane?
+      value: -> Ask about the wing.
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
@@ -85,27 +174,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: What do you want? Can't you see I'm trying to sleep?
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
-      value: You
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
-      value: Well, did you?
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
-      value: Richard
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
-      value: You're the only weird thing around here. Leave me alone.
+      value: What the hell are you doing in my cabin? Get out of here and leave me
+        alone.
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
-      value: "-> Do you know anything about planes?\t"
+      value: "-> Ask about planes.\t"
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].SpeakerName
@@ -113,7 +187,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
-      value: I know that if you don't leave me alone I'm gonna throw you out of one.
+      value: I know I'm gonna throw you out of one if you don't leave me alone.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367820843834890124, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+--- !u!4 &6749276196632506344 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6978190650663881628, guid: 8b1106e7586d9154b94600d3541e82aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 4430906093438395508}
+  m_PrefabAsset: {fileID: 0}

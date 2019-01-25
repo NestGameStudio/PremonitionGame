@@ -1,5 +1,94 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1932576391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1399699899359397621}
+    m_Modifications:
+    - target: {fileID: 5001464734140610712, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_Name
+      value: Character 2 - Female Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.58221537
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.40127957
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.40127957
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.58221537
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -69.151
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172832717156148506, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 79a45c1bcf0a0ff40be68959f3f9f79f, type: 2}
+    - target: {fileID: 7023196813470221444, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1352761637830486380, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f11458f431977464f88896a5f5ec3470, type: 2}
+    - target: {fileID: 1352761637830486380, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: f11458f431977464f88896a5f5ec3470, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8540b0c0c043afa439217d712a68f71a, type: 3}
 --- !u!1001 &8339321569984793961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69,16 +158,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: -> Did you notice anything strange with the plane recently? I think we're
-        in danger.
+      value: -> Ask about the wing.
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
@@ -86,7 +170,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: Nothing that caught my eye, no.
+      value: What's up with the wing? I've been too busy eyeballing that storage room
+        in the back.
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
@@ -94,20 +179,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
-      value: But I did notice that the flight crew has a neat little closet where
-        they keep all of their stuff.
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
-      value: Jane
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
-      value: I wonder what they have hidden away in there...
+      value: It's where they keep all the candy.
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
-      value: -> What do you know about planes?
+      value: -> Ask about the kitchen.
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].SpeakerName
@@ -115,7 +191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
-      value: That they are terrible to sleep in, but at least we get some free movies.
+      value: Yeah, I tried going in there as well.
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[1].SpeakerName
@@ -123,16 +199,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[1].Sentence
-      value: I meant what do you know about how a plane works?
+      value: But everything here seems to be locked up. Boring.
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[2].SpeakerName
-      value: Jane
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[2].Sentence
-      value: Oh... Nothing really, but I know how to get the seat with the best leg
-        space.
+    - target: {fileID: 5367820843834890124, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+--- !u!4 &1399699899359397621 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6978190650663881628, guid: 8b1106e7586d9154b94600d3541e82aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 8339321569984793961}
+  m_PrefabAsset: {fileID: 0}

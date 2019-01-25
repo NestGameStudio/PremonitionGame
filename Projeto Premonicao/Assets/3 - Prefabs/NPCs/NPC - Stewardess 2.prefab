@@ -1,5 +1,99 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1014270962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 777528654660772395}
+    m_Modifications:
+    - target: {fileID: 5001464734140610712, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_Name
+      value: Character 2 - Female Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.159
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6714091
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.22183296
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.22183296
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6714091
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 36.567
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172832717156148506, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c5946a060f4354e46965e5c94c5eb15c, type: 2}
+    - target: {fileID: 130777410413729546, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718305431941426181, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 66ab46a9ff25c2244a572ea0b89c10b2, type: 2}
+    - target: {fileID: 3718305431941426181, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 66ab46a9ff25c2244a572ea0b89c10b2, type: 2}
+    - target: {fileID: 7023196813470221444, guid: 8540b0c0c043afa439217d712a68f71a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8540b0c0c043afa439217d712a68f71a, type: 3}
 --- !u!1001 &7646502340513229239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,7 +104,7 @@ PrefabInstance:
     - target: {fileID: 7695712146682819129, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: NPC - Stewardess 2
       objectReference: {fileID: 0}
     - target: {fileID: 3294889348317983200, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
@@ -67,5 +161,56 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
+      value: -> Talk about the wing.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
+      value: Stewardess Barbara
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
+      value: There's nothing to worry about.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
+      value: Stewardess Barbara
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
+      value: The crew can handle anything, they're on their way to the control room.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
+      value: -> Ask about the Crew Room.
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].SpeakerName
+      value: Stewardess Barbara
+      objectReference: {fileID: 0}
+    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
+      value: I'm sorry, but that's off limits to passengers.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367820843834890124, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+--- !u!4 &777528654660772395 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6978190650663881628, guid: 8b1106e7586d9154b94600d3541e82aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 7646502340513229239}
+  m_PrefabAsset: {fileID: 0}
