@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5658,10 +5658,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.98800004
       objectReference: {fileID: 0}
-    - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_Radius
-      value: 0.36
-      objectReference: {fileID: 0}
     - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
       propertyPath: mouseSensitivity
       value: 5
@@ -5669,6 +5665,10 @@ PrefabInstance:
     - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
       propertyPath: speed
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
+      propertyPath: m_Radius
+      value: 0.36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
@@ -7809,38 +7809,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainScripts
       objectReference: {fileID: 0}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: nameText
-      value: 
-      objectReference: {fileID: 526273775}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: dialogueText
-      value: 
-      objectReference: {fileID: 526273774}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: dialogueOptions
-      value: 
-      objectReference: {fileID: 526273776}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: dialogueHeader
-      value: 
-      objectReference: {fileID: 1161258836}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: TimeRegression
-      value: 
-      objectReference: {fileID: 1342628004}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: BlackScreen
-      value: 
-      objectReference: {fileID: 1696020759}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: ExplosionTimer
-      value: 120
-      objectReference: {fileID: 0}
     - target: {fileID: 6760407941313106372, guid: 830f00090e8191049aee230cc6b62719,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7895,6 +7863,38 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 526273775}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 526273774}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: dialogueOptions
+      value: 
+      objectReference: {fileID: 526273776}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: dialogueHeader
+      value: 
+      objectReference: {fileID: 1161258836}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: TimeRegression
+      value: 
+      objectReference: {fileID: 1342628004}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: BlackScreen
+      value: 
+      objectReference: {fileID: 1696020759}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: ExplosionTimer
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2140493957, guid: 830f00090e8191049aee230cc6b62719, type: 3}
       propertyPath: HUDInventoryObjects
