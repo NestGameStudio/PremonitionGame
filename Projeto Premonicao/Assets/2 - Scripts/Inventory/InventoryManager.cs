@@ -10,10 +10,13 @@ public class InventoryManager: MonoBehaviour {
 
     public int MaxNumOfObjects;
     public GameObject HUDInventoryObjects;
+    public GameObject ItemDetail;
 
     private List<Object> ObjectsInInventory = new List<Object>();
 
     private int currentItem = 0;
+
+    private bool isLookingItem = false;
 
     public static InventoryManager Instance { get { return instance; } }
 
@@ -27,7 +30,7 @@ public class InventoryManager: MonoBehaviour {
 
         if (!Keypad.Instance.KeypadOn && !DialogueManager.Instance.DialogueSelection) {
 
-            if (Input.GetAxis("Mouse ScrollWheel") > 0f) {
+            if (Input.GetAxis("Mouse ScrollWheel") > 0f & !isLookingItem) {
 
                 if (currentItem < ObjectsInInventory.Count - 1) {
                     currentItem++;
@@ -38,7 +41,7 @@ public class InventoryManager: MonoBehaviour {
                 StartCoroutine(ShowName(HUDInventoryObjects.transform.GetChild(currentItem).transform.GetChild(0).gameObject, HUDInventoryObjects.transform.GetChild(currentItem).transform.GetChild(1).gameObject));
 
 
-            } else if (Input.GetAxis("Mouse ScrollWheel") < 0f) {
+            } else if (Input.GetAxis("Mouse ScrollWheel") < 0f && !isLookingItem) {
 
                 if (currentItem > 0) {
                     currentItem--;
@@ -49,6 +52,25 @@ public class InventoryManager: MonoBehaviour {
 
                 StartCoroutine(ShowName(HUDInventoryObjects.transform.GetChild(currentItem).transform.GetChild(0).gameObject, HUDInventoryObjects.transform.GetChild(currentItem).transform.GetChild(1).gameObject));
             }
+
+            if (Input.GetKey(KeyCode.Space) && ObjectsInInventory.Count > 0) {
+
+                Debug.Log(currentItem);
+
+                ItemDetail.transform.GetChild(0).GetChild(0).GetComponent<Image>().sprite = ObjectsInInventory[currentItem].HUDSprite;
+                ItemDetail.transform.GetChild(0).GetChild(1).GetComponent<Text>().text = ObjectsInInventory[currentItem].Name;
+                ItemDetail.transform.GetChild(0).GetChild(2).GetComponent<Text>().text = ObjectsInInventory[currentItem].Description;
+
+                ItemDetail.SetActiveRecursively(true);
+
+                isLookingItem = true;
+            } else {
+
+                ItemDetail.SetActiveRecursively(false);
+
+                isLookingItem = false;
+            }
+
         }
 
     }

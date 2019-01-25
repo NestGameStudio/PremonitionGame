@@ -101,9 +101,6 @@ public class DialogueManager : MonoBehaviour
 
     public void SelectPrompt(DialoguePrompt[] _dialoguePrompts, EndOfDialogue endAction, string HeaderPrompt) {
 
-        dialogueHeader.text = HeaderPrompt;
-        dialogueHeader.gameObject.SetActive(true);
-
         nameText.transform.parent.gameObject.SetActive(false);
 
         dialogueOptions.transform.parent.gameObject.SetActive(true);
