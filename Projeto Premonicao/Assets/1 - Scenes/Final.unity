@@ -9594,10 +9594,10 @@ MonoBehaviour:
   MouseController: {fileID: 1249117191}
   PrompHeader: 
   dialoguePrompts:
-  - DialogPrompt: I need a code for this door.
+  - DialogPrompt: It looks like this door will only open with a code.
     dialogue:
     - SpeakerName: 
-      Sentence: I should look around more.
+      Sentence: I might be able to find it if i look around.
 --- !u!1 &1604220485 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100184, guid: 332e6e33bcee1fd4fab281a7a20cf693,
@@ -10048,7 +10048,7 @@ PrefabInstance:
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.122
+      value: 3.267
       objectReference: {fileID: 0}
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
@@ -10058,7 +10058,7 @@ PrefabInstance:
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 62.97084
+      value: 62.967
       objectReference: {fileID: 0}
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
@@ -10068,7 +10068,7 @@ PrefabInstance:
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.39353925
+      value: 0.4758329
       objectReference: {fileID: 0}
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
@@ -10078,7 +10078,7 @@ PrefabInstance:
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9193078
+      value: 0.87953573
       objectReference: {fileID: 0}
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
@@ -10093,7 +10093,7 @@ PrefabInstance:
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 46.350002
+      value: 56.827003
       objectReference: {fileID: 0}
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
@@ -10597,7 +10597,7 @@ PrefabInstance:
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.298
+      value: 0.29799986
       objectReference: {fileID: 0}
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
@@ -10627,7 +10627,7 @@ PrefabInstance:
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
@@ -10647,12 +10647,12 @@ PrefabInstance:
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.7265291
+      value: 1.726532
       objectReference: {fileID: 0}
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.20000012
+      value: 0.20000036
       objectReference: {fileID: 0}
     - target: {fileID: 6589804930201928214, guid: ec01da6cf2ff8874aa3f9c83dafb99dd,
         type: 3}
@@ -11936,15 +11936,15 @@ Transform:
   m_PrefabInstance: {fileID: 1684072427}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961145021}
-  m_LocalRotation: {x: -0, y: 0.39353925, z: -0, w: 0.9193078}
-  m_LocalPosition: {x: 3.122, y: 0.2866602, z: 62.97084}
+  m_LocalRotation: {x: -0, y: 0.4758329, z: -0, w: 0.87953573}
+  m_LocalPosition: {x: 3.267, y: 0.2866602, z: 62.967}
   m_LocalScale: {x: 0.2, y: 3.0924597, z: 1.4345896}
   m_Children:
   - {fileID: 1283562970}
   - {fileID: 1012176648}
   m_Father: {fileID: 42781478}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 46.350002, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 56.827003, z: 0}
 --- !u!114 &1961145026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11960,7 +11960,7 @@ MonoBehaviour:
   MouseController: {fileID: 1249117191}
   TriggerObject: {fileID: 0}
   ConsumeItem: 1
-  Monologue: {fileID: 665785018}
+  Monologue: {fileID: 0}
 --- !u!1 &1968592866 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100276, guid: 332e6e33bcee1fd4fab281a7a20cf693,
@@ -12211,8 +12211,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036984428}
   m_LocalRotation: {x: -0.0014376877, y: 0.70710534, z: -0.002375664, w: 0.70710284}
-  m_LocalPosition: {x: 1.654, y: 0.298, z: 20.425}
-  m_LocalScale: {x: 0.20000012, y: 3.0875514, z: 1.7265291}
+  m_LocalPosition: {x: 1.654, y: 0.29799986, z: 20.425}
+  m_LocalScale: {x: 0.20000036, y: 3.0875514, z: 1.726532}
   m_Children:
   - {fileID: 1391649741}
   - {fileID: 1278237915}
@@ -13339,7 +13339,9 @@ PrefabInstance:
     - target: {fileID: 6053210034407443945, guid: 971f9f53228620c468b637e1cc6224f6,
         type: 3}
       propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: I don't have the proper key for this door.
+      value: 'I don''t have the right key for this door.
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 6053210034407443945, guid: 971f9f53228620c468b637e1cc6224f6,
         type: 3}
@@ -13349,7 +13351,12 @@ PrefabInstance:
     - target: {fileID: 6053210034407443945, guid: 971f9f53228620c468b637e1cc6224f6,
         type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: I should look around more.
+      value: I should look around a bit more.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053210034407443945, guid: 971f9f53228620c468b637e1cc6224f6,
+        type: 3}
+      propertyPath: PrompHeader
+      value: I don't have the right key for this door.
       objectReference: {fileID: 0}
     - target: {fileID: 9198276906056009480, guid: 971f9f53228620c468b637e1cc6224f6,
         type: 3}
