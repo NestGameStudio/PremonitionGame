@@ -17,6 +17,7 @@ public class RespawnControl : MonoBehaviour
     private AudioSource audio;
     public GameObject BlackScreen;
 
+    public ParticleSystem Fumaca;
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +48,11 @@ public class RespawnControl : MonoBehaviour
                 time += 1;
                 if (ExplosionTimer - time >= 0)
                     TimeRegression.text = (ExplosionTimer - time).ToString();
+                    
+                if(ExplosionTimer - time < ExplosionTimer - ExplosionTimer / 4)
+                {
+                    Fumaca.Play();
+                }
 
             } else {
 
