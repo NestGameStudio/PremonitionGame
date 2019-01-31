@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour {
 
     private PlayerMovement movement;
 
+    public Animator PlayerAnimator;
 
     private void Start() {
 
@@ -55,7 +56,12 @@ public class PlayerController : MonoBehaviour {
         // - Apply camera rotation
         movement.RotateCamera(cameraRotation);
 
-
+        if (Input.GetButton("Fire2")){
+            PlayerAnimator.SetBool("ArmUp", true);
+        }else
+        {
+            PlayerAnimator.SetBool("ArmUp", false);
+        }
     }
 
 }

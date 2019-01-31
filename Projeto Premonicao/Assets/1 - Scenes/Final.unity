@@ -4088,6 +4088,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 11491253}
     m_Modifications:
+    - target: {fileID: 1631898565, guid: 8eaf1d88802a9eb4ba7c813fd1cdf78f, type: 3}
+      propertyPath: m_Name
+      value: Kitchen Keys
+      objectReference: {fileID: 0}
     - target: {fileID: 7468160998908804814, guid: 8eaf1d88802a9eb4ba7c813fd1cdf78f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4142,10 +4146,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90.00001
-      objectReference: {fileID: 0}
-    - target: {fileID: 1631898565, guid: 8eaf1d88802a9eb4ba7c813fd1cdf78f, type: 3}
-      propertyPath: m_Name
-      value: Kitchen Keys
       objectReference: {fileID: 0}
     - target: {fileID: 1631898566, guid: 8eaf1d88802a9eb4ba7c813fd1cdf78f, type: 3}
       propertyPath: m_Size.x
@@ -9510,58 +9510,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.98800004
       objectReference: {fileID: 0}
-    - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_Radius
-      value: 0.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_Height
-      value: 2.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1154834924, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_Center.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: mouseSensitivity
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: speed
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1613024521, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1613024521, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1613024521, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1613024521, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1613024521, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1613024521, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1613024521, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1613024521, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
 --- !u!1 &1513401143 stripped
@@ -12429,31 +12377,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300046, guid: 332e6e33bcee1fd4fab281a7a20cf693, type: 3}
---- !u!1 &1990300877 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1821411891929379417, guid: b456326b6b5a27346b6b887a6f223c40,
-    type: 3}
-  m_PrefabInstance: {fileID: 1494866561}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1990300884
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990300877}
-  m_Enabled: 0
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 41f93d5108c004146b0e79ba1fc4896a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2006882941 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100158, guid: 332e6e33bcee1fd4fab281a7a20cf693,
