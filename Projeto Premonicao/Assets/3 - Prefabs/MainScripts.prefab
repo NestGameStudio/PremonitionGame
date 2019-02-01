@@ -211,26 +211,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Audio
       objectReference: {fileID: 0}
-    - target: {fileID: 4770765264048485106, guid: d9f4bf967284a6443b450f955e4fca45,
-        type: 3}
-      propertyPath: m_Volume
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770765264048485106, guid: d9f4bf967284a6443b450f955e4fca45,
-        type: 3}
-      propertyPath: MaxDistance
-      value: 45.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770765264048485106, guid: d9f4bf967284a6443b450f955e4fca45,
-        type: 3}
-      propertyPath: MinDistance
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770765264048485106, guid: d9f4bf967284a6443b450f955e4fca45,
-        type: 3}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4770765263767532264, guid: d9f4bf967284a6443b450f955e4fca45,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -285,21 +265,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770765264048485107, guid: d9f4bf967284a6443b450f955e4fca45,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -351.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770765264048485107, guid: d9f4bf967284a6443b450f955e4fca45,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -188.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 4770765264048485107, guid: d9f4bf967284a6443b450f955e4fca45,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 24.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9f4bf967284a6443b450f955e4fca45, type: 3}
