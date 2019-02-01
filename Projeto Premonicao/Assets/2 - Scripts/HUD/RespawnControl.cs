@@ -54,7 +54,7 @@ public class RespawnControl : MonoBehaviour
                 if (ExplosionTimer - time >= 0)
                     TimeRegression.text = (ExplosionTimer - time).ToString();
                 ReverbZone.reverb = ReverbZone.reverb * (Mathf.RoundToInt(1/(ExplosionTimer - time)))*10000;
-                Debug.Log(((1 / (ExplosionTimer - time))) * 10000);
+                //Debug.Log(((1 / (ExplosionTimer - time))) * 10000);
 
                 if(ExplosionTimer - time < ExplosionTimer - ExplosionTimer / 4)
                 {
