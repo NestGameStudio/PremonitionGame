@@ -2783,6 +2783,56 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 567505925968779730, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 567505925968779730, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 567505925968779730, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597703721831133128, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951973460865578962, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951973460865578962, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7768611295032850781, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 195.00002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349548546077410574, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349548546077410574, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349548546077410574, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862, type: 3}
 --- !u!1 &561512475
@@ -11127,50 +11177,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainScripts
       objectReference: {fileID: 0}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: nameText
-      value: 
-      objectReference: {fileID: 526273775}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: dialogueText
-      value: 
-      objectReference: {fileID: 526273774}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: dialogueOptions
-      value: 
-      objectReference: {fileID: 526273776}
-    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
-        type: 3}
-      propertyPath: dialogueHeader
-      value: 
-      objectReference: {fileID: 1161258836}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: TimeRegression
-      value: 
-      objectReference: {fileID: 1342628004}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: BlackScreen
-      value: 
-      objectReference: {fileID: 1696020759}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: ExplosionTimer
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: Fumaca
-      value: 
-      objectReference: {fileID: 1135870526}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: AlarmSound
-      value: 
-      objectReference: {fileID: 980807447}
-    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
-      propertyPath: ReverbZone
-      value: 
-      objectReference: {fileID: 1336782789}
     - target: {fileID: 6760407941313106372, guid: 830f00090e8191049aee230cc6b62719,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11226,6 +11232,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 526273775}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 526273774}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: dialogueOptions
+      value: 
+      objectReference: {fileID: 526273776}
+    - target: {fileID: 8834731822035596216, guid: 830f00090e8191049aee230cc6b62719,
+        type: 3}
+      propertyPath: dialogueHeader
+      value: 
+      objectReference: {fileID: 1161258836}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: TimeRegression
+      value: 
+      objectReference: {fileID: 1342628004}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: BlackScreen
+      value: 
+      objectReference: {fileID: 1696020759}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: ExplosionTimer
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: Fumaca
+      value: 
+      objectReference: {fileID: 1135870526}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: AlarmSound
+      value: 
+      objectReference: {fileID: 980807447}
+    - target: {fileID: 2140493956, guid: 830f00090e8191049aee230cc6b62719, type: 3}
+      propertyPath: ReverbZone
+      value: 
+      objectReference: {fileID: 1336782789}
     - target: {fileID: 2140493957, guid: 830f00090e8191049aee230cc6b62719, type: 3}
       propertyPath: HUDInventoryObjects
       value: 
