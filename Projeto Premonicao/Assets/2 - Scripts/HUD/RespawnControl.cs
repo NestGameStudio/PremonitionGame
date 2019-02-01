@@ -14,7 +14,12 @@ public class RespawnControl : MonoBehaviour
     public float ExplosionTimer = 60f;
 
     public AudioClip ExplosionSound;
+
+    public AudioSource AlarmSound;
+
     private AudioSource audio;
+    public AudioReverbZone ReverbZone;
+
     public GameObject BlackScreen;
 
     public ParticleSystem Fumaca;
@@ -48,11 +53,17 @@ public class RespawnControl : MonoBehaviour
                 time += 1;
                 if (ExplosionTimer - time >= 0)
                     TimeRegression.text = (ExplosionTimer - time).ToString();
-                    
+                ReverbZone.reverb = ReverbZone.reverb * (Mathf.RoundToInt(1/(ExplosionTimer - time)))*10000;
+                Debug.Log(((1 / (ExplosionTimer - time))) * 10000);
+
                 if(ExplosionTimer - time < ExplosionTimer - ExplosionTimer / 4)
                 {
                     Fumaca.Play();
                     Fumaca.startColor = new Color(0.5f, 0.5f, 0.5f, 10*(1/(ExplosionTimer - time)));
+                }
+                if (ExplosionTimer - time < ExplosionTimer - ExplosionTimer / 2)
+                {
+                    AlarmSound.Play();
                 }
 
             } else {

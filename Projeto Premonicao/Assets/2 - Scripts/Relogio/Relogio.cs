@@ -24,8 +24,8 @@ public class Relogio : MonoBehaviour
     {
         
 
-        Debug.Log(minutes);
-        Debug.Log(seconds);
+        //Debug.Log(minutes);
+        //Debug.Log(seconds);
 
         GameObject.Find("Hours/Minutes").GetComponent<Text>().text = hours + ":" + minutes;
         GameObject.Find("Seconds").GetComponent<Text>().text = seconds.ToString();
