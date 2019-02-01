@@ -33,7 +33,7 @@ public class Relogio : MonoBehaviour
         if (seconds == 0)
         {
             minutes -= -1;
-            seconds = 60;
+            seconds = 59;
         }
 
     }
