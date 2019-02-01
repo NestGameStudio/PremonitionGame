@@ -52,6 +52,7 @@ public class RespawnControl : MonoBehaviour
                 if(ExplosionTimer - time < ExplosionTimer - ExplosionTimer / 4)
                 {
                     Fumaca.Play();
+                    Fumaca.startColor = new Color(0.5f, 0.5f, 0.5f, 10*(1/(ExplosionTimer - time)));
                 }
 
             } else {
