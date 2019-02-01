@@ -442,8 +442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5223a2ff0eb23de439ab0dc7e22ac49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
-  mouseSensitivity: 5
+  speed: 6
+  mouseSensitivity: 4
   PlayerAnimator: {fileID: 1990300884}
 --- !u!114 &1217180858
 MonoBehaviour:
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1613024520}
-  InteractivityDistance: 10
+  InteractivityDistance: 3
 --- !u!136 &1154834924
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -685,16 +685,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -8.842
       objectReference: {fileID: 0}
-    - target: {fileID: 8358974408528626038, guid: 520eb26fcdc03f742ab3cf36ce534b14,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8358974408528626038, guid: 520eb26fcdc03f742ab3cf36ce534b14,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7640702909114454216, guid: 520eb26fcdc03f742ab3cf36ce534b14,
         type: 3}
       propertyPath: m_Layer
@@ -725,6 +715,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6745713063410159528, guid: 520eb26fcdc03f742ab3cf36ce534b14,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c11a9fc311500a1449ba3d4fc6ae283b, type: 2}
     - target: {fileID: 7425342433496138926, guid: 520eb26fcdc03f742ab3cf36ce534b14,
         type: 3}
       propertyPath: m_Layer

@@ -9579,18 +9579,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.98800004
       objectReference: {fileID: 0}
-    - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: mouseSensitivity
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1217180857, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: speed
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 150555257, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: InteractivityDistance
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
 --- !u!1 &1513401143 stripped
