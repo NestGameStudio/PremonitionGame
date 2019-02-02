@@ -28,7 +28,7 @@ public class InventoryManager: MonoBehaviour {
 
     private void Update() {
 
-        if (!Keypad.Instance.KeypadOn && !DialogueManager.Instance.DialogueSelection) {
+        if (!DialogueManager.Instance.DialogueSelection) {
 
             if (Input.GetAxis("Mouse ScrollWheel") > 0f & !isLookingItem) {
 
