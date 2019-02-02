@@ -28,6 +28,9 @@ public class RespawnControl : MonoBehaviour
     public bool LostGame = false;
 
     public ParticleSystem Fumaca;
+
+    public CursorBehaviour cursor;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -77,7 +80,8 @@ public class RespawnControl : MonoBehaviour
                     LostGame = true;
                     audio.Play();
                     BlackScreen.SetActive(true);
-                    yield return new WaitForSeconds(7);
+                    cursor.currentMouseState = MouseState.OnDialog;
+                     yield return new WaitForSeconds(7);
 
                     Application.LoadLevel(Application.loadedLevel);
                 }

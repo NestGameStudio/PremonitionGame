@@ -6,6 +6,9 @@ public class PlayerMovement: MonoBehaviour {
     [SerializeField]
     private Camera cam;
 
+    [SerializeField]
+    private RespawnControl Respawn;
+
     private Vector3 velocity = Vector3.zero;
     private Vector3 rotation = Vector3.zero;
     private Vector3 cameraRotation = Vector3.zero;
@@ -21,7 +24,7 @@ public class PlayerMovement: MonoBehaviour {
     // Run avery physics iteration
     private void FixedUpdate() {
 
-        if ((!DialogueManager.Instance.DialogueSelection && !DialogueManager.Instance.ConversationStarted) && !Keypad.Instance.KeypadOn)
+        if ((!DialogueManager.Instance.DialogueSelection && !DialogueManager.Instance.ConversationStarted) && !Keypad.Instance.KeypadOn && !Respawn.LostGame)
         {
             PerformMovement();
             PerformRotation();

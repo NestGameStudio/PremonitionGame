@@ -54,6 +54,7 @@ MonoBehaviour:
   dialogueText: {fileID: 0}
   dialogueHeader: {fileID: 0}
   dialogueOptions: {fileID: 0}
+  DelayBetweenSentencesValue: 0.3
 --- !u!82 &2140493959
 AudioSource:
   m_ObjectHideFlags: 0
@@ -168,8 +169,11 @@ MonoBehaviour:
   ExplosionSound: {fileID: 8300000, guid: 0b772a7f4b0b85e46b51e5d93c5d9df9, type: 3}
   AlarmSound: {fileID: 1172354965}
   ReverbZone: {fileID: 809039687}
+  WonState: {fileID: 0}
   BlackScreen: {fileID: 0}
+  LostGame: 0
   Fumaca: {fileID: 0}
+  cursor: {fileID: 0}
 --- !u!114 &2140493960
 MonoBehaviour:
   m_ObjectHideFlags: 0

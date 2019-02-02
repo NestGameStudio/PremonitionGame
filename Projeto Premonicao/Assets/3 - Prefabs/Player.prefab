@@ -458,6 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1613024523}
+  Respawn: {fileID: 0}
 --- !u!114 &150555257
 MonoBehaviour:
   m_ObjectHideFlags: 0

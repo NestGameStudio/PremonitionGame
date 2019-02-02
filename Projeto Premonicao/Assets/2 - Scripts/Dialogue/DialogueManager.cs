@@ -74,7 +74,7 @@ public class DialogueManager : MonoBehaviour
 
                 dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Bold;
 
-            } else if ((Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) && canDisplayNextSentence) {
+            } else if (((Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) && canDisplayNextSentence) || dialoguePrompts.Length == 1) {
 
                 StartDialogue(dialoguePrompts[currentSelectedPrompt].dialogue);
                 dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
