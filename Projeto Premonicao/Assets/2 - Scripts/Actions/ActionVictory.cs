@@ -7,6 +7,11 @@ public class ActionVictory : ActionInteraction {
     public Text VictoryText;
     public RespawnControl Respawn;
 
+    public RespawnControl RespawnController;
+
+    [HideInInspector]
+    public bool WonGame = false;
+
     public override void DoAction()
     {
         base.DoAction();
@@ -17,9 +22,16 @@ public class ActionVictory : ActionInteraction {
             {
                 InventoryManager.Instance.removeObjectFromInventory(TriggerObject);
             }
-            VictoryText.gameObject.SetActive(true);
-            Respawn.time += 20;
-            StartCoroutine(EndGame());
+
+            // if this is true, then the player lost before completing the game
+            if (!RespawnController.LostGame) {
+
+                WonGame = true;
+                VictoryText.gameObject.SetActive(true);
+                Respawn.time += 20;
+                StartCoroutine(EndGame());
+            }
+            
         }
         else
         {
@@ -36,6 +48,8 @@ public class ActionVictory : ActionInteraction {
     {
         yield return new WaitForSeconds(10f);
         Application.LoadLevel("Menu");
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
 }

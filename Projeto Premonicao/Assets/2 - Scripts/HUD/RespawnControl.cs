@@ -20,7 +20,12 @@ public class RespawnControl : MonoBehaviour
     private AudioSource audio;
     public AudioReverbZone ReverbZone;
 
+    public ActionVictory WonState;
+
     public GameObject BlackScreen;
+
+    [HideInInspector]
+    public bool LostGame = false;
 
     public ParticleSystem Fumaca;
     // Start is called before the first frame update
@@ -68,12 +73,15 @@ public class RespawnControl : MonoBehaviour
 
             } else {
 
-                audio.Play();               
-                BlackScreen.SetActive(true);
-                yield return new WaitForSeconds(7);
+                if (!WonState.WonGame) {
+                    LostGame = true;
+                    audio.Play();
+                    BlackScreen.SetActive(true);
+                    yield return new WaitForSeconds(7);
 
-                Application.LoadLevel(Application.loadedLevel);
-                
+                    Application.LoadLevel(Application.loadedLevel);
+                }
+
                 break;
             }
 
