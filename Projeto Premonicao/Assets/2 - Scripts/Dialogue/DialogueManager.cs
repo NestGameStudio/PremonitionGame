@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -28,6 +29,8 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueHeader;
     public GameObject dialogueOptions;
 
+    private bool canDisplayNextSentence = true;
+    public float DelayBetweenSentencesValue = 0.3f;
 
     public static DialogueManager Instance { get { return instance; } }
 
@@ -40,7 +43,7 @@ public class DialogueManager : MonoBehaviour
     private void Update() {
         
         if (ConversationStarted) {
-            if (Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) {
+            if ((Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) && canDisplayNextSentence) {
                 DisplayNextSentence();
 
             } else if (Input.GetKeyDown(KeyCode.Escape)) {
@@ -71,7 +74,7 @@ public class DialogueManager : MonoBehaviour
 
                 dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Bold;
 
-            } else if (Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) {
+            } else if ((Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) && canDisplayNextSentence) {
 
                 StartDialogue(dialoguePrompts[currentSelectedPrompt].dialogue);
                 dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
@@ -131,6 +134,9 @@ public class DialogueManager : MonoBehaviour
 
         DialogueSelection = true;
 
+        StartCoroutine(DelayBetweenSentences());
+        canDisplayNextSentence = false;
+
     }
 
     public void StartDialogue(Dialogue[] dialogue) {
@@ -162,11 +168,20 @@ public class DialogueManager : MonoBehaviour
         nameText.fontStyle = FontStyle.Bold;
         dialogueText.text = sentence;
 
+        StartCoroutine(DelayBetweenSentences());
+        canDisplayNextSentence = false;
+
     }
 
     private void EndDialog() {
         nameText.transform.parent.parent.gameObject.SetActive(false);
         ConversationStarted = false;
         EndDialogue();
+    }
+
+    IEnumerator DelayBetweenSentences() {
+
+        yield return new WaitForSeconds(DelayBetweenSentencesValue);
+        canDisplayNextSentence = true;
     }
 }
