@@ -142,7 +142,6 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue[] dialogue) {
 
         nameText.transform.parent.gameObject.SetActive(true);
-
         sentences.Clear();
 
         foreach(Dialogue dialogueSentence in dialogue) {

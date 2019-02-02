@@ -67,16 +67,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 162.75401
       objectReference: {fileID: 0}
-    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9179179059787343419, guid: 8540b0c0c043afa439217d712a68f71a,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8540b0c0c043afa439217d712a68f71a, type: 3}
 --- !u!1001 &8884422935986863521
@@ -148,23 +138,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: -> Talk about the wing.
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
@@ -172,41 +154,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
       propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: I'm sure there's nothing to worry about, I'll have the crew check it
-        out.
+      value: I'm sure there's <b>nothing</b> to worry about, I'll have the crew check
+        it out.
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
-      value: "-> Ask for more coffee.\t"
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.65956813
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].SpeakerName
-      value: Stewardess
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Height
+      value: 3.1091318
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
-      value: Right away, I'll bring it to your seat.
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.08771587
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[2].DialogPrompt
-      value: "-> Ask about location.\t"
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.28607035
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[0].SpeakerName
-      value: Stewardess
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[0].Sentence
-      value: "We're in the middle of the Atlantic Ocean. \nNothing but blue all around
-        us."
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[1].SpeakerName
-      value: Stewardess
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[2].dialogue.Array.data[1].Sentence
-      value: It should be at least another 5 hours before we reach our destination.
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.018237112
       objectReference: {fileID: 0}
     - target: {fileID: 5367820843834890124, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
