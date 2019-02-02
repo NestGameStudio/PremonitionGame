@@ -8,7 +8,7 @@ public class Relogio : MonoBehaviour
     public GameObject clockText;
     public GameObject clockTextSeconds;
 
-    private int seconds = 60;
+    private int seconds = 30;
     private int minutes = 35;
     private float time;
     private int hours = 16;
@@ -30,17 +30,17 @@ public class Relogio : MonoBehaviour
         GameObject.Find("Hours/Minutes").GetComponent<Text>().text = hours + ":" + minutes;
         GameObject.Find("Seconds").GetComponent<Text>().text = seconds.ToString();
 
-        if (seconds == 0)
+        if (seconds == 60)
         {
-            minutes -= -1;
-            seconds = 59;
+            minutes += 1;
+            seconds = 1;
         }
 
     }
     public IEnumerator countdown()
     {
         yield return new WaitForSeconds(1);
-        seconds -= 1;
+        seconds += 1;
         StartCoroutine(countdown());
 
     }
