@@ -8,9 +8,6 @@ public class ActionGrabObject : ActionTrigger {
     public override void DoAction() {
         base.DoAction();
 
-        Debug.Log(interactiveObject.Name);
-        Debug.Log(interactiveObject.Description);
-
         InventoryManager.Instance.putIntemInInventory(interactiveObject);
     }
 

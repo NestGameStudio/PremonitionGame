@@ -136,11 +136,14 @@ public class InventoryManager: MonoBehaviour {
 
     }
 
+    // BUG AQUI TEM QUE BOTAR OS ITEM PRA BAIXO
     public void removeObjectFromInventory(GameObject item) {
 
         foreach (Object itemFromInventory in ObjectsInInventory) {
 
             if (item.GetComponent<ActionGrabObject>().interactiveObject == itemFromInventory) {
+
+                int index = ObjectsInInventory.IndexOf(itemFromInventory);
                 ObjectsInInventory.Remove(item.GetComponent<ActionGrabObject>().interactiveObject);
 
                 foreach (Image inventoryObject in HUDInventoryObjects.GetComponentsInChildren<Image>(true)) {
@@ -150,9 +153,26 @@ public class InventoryManager: MonoBehaviour {
                         break;
                     }
                 }
+
+                // Rearange the itens to a new position where the object left empty
+                if (index < ObjectsInInventory.Count) {
+
+                    Debug.Log(ObjectsInInventory[0].Description + " NAME");
+
+                    Image[] HUDObjects = HUDInventoryObjects.GetComponentsInChildren<Image>(true);
+
+                    for (int i = index; i < ObjectsInInventory.Count; i++) {
+                        HUDObjects[i].sprite = ObjectsInInventory[i].HUDSprite;
+                        HUDObjects[i].gameObject.SetActive(true);
+                        HUDObjects[i+1].gameObject.SetActive(false);
+                    }
+                }
+
                 break;
             }
         }
+
+
 
     }
     
