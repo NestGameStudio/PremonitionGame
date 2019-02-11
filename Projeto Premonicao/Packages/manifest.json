@@ -3,6 +3,7 @@
     "com.unity.ads": "2.3.1",
     "com.unity.analytics": "3.2.2",
     "com.unity.collab-proxy": "1.2.15",
+    "com.unity.entities": "0.0.12-preview.23",
     "com.unity.package-manager-ui": "2.0.3",
     "com.unity.postprocessing": "2.1.2",
     "com.unity.purchasing": "2.0.3",
@@ -26,6 +27,7 @@
     "com.unity.modules.ui": "1.0.0",
     "com.unity.modules.uielements": "1.0.0",
     "com.unity.modules.umbra": "1.0.0",
+	"com.unity.test-framework.performance": "0.1.49-preview",
     "com.unity.modules.unityanalytics": "1.0.0",
     "com.unity.modules.unitywebrequest": "1.0.0",
     "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
@@ -38,11 +40,11 @@
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
   },
-  "registry": "https://packages.unity.com", 
-    "testables": [
-        "com.unity.collections", 
-        "com.unity.entities", 
-        "com.unity.jobs", 
-        "com.unity.test-framework.performance"
-    ]
+  "registry": "https://packages.unity.com",
+  "testables": [
+    "com.unity.collections",
+    "com.unity.entities",
+    "com.unity.jobs",
+	"com.unity.test-framework.performance"
+  ]
 }

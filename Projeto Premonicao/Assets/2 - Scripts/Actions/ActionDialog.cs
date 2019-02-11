@@ -5,32 +5,38 @@ public delegate void EndOfDialogue();
 
 public class ActionDialog : ActionTrigger
 {
+    // ------------------------- Variables ------------------------- //
+
+    // --- Public Variables --- //
     [TextArea(1,3)]
-    public string PrompHeader;
+    public string PromptHeader;
+    public DialoguePrompt[] DialoguePrompts;
 
-    public DialoguePrompt[] dialoguePrompts;
-
+    // --- Private Variables --- //
     private EndOfDialogue function;
-    private bool StartDialogue = false;
-    private bool CanStartDialogAgain = true;
+    private bool startDialogue = false;
+    private bool canStartDialogAgain = true;
 
-    private void Update() {
-        
-        if (!DialogueManager.Instance.DialogueSelection && StartDialogue) {
-            MouseController.currentMouseState = MouseState.OnDialog;
-        }
-    }
+    // ------------------------- Functions ------------------------- //
 
+    // --- Public Functions --- //
+
+    /// < DoAction(): void >
+    /// Show a dialogue that it's selected on Prompt.
+    ///  Function changes the value from Cursor so it can move freely in the screen to choose the dialog Prompt.
+    ///  Wait if a dialogue it's over so it won't show a new dialogue right after. 
+    /// </ DoAction(): void >
     public override void DoAction() {
         base.DoAction();
 
         MouseController.currentMouseState = MouseState.OnPrompt;
 
         function = EndAction;
-        if (CanStartDialogAgain) {
-            DialogueManager.Instance.SelectPrompt(dialoguePrompts, function, PrompHeader);
-            StartDialogue = true;
-            CanStartDialogAgain = false;
+
+        if (canStartDialogAgain) {
+            DialogueManager.Instance.SelectPrompt(DialoguePrompts, function, PromptHeader);
+            startDialogue = true;
+            canStartDialogAgain = false;
         } else {
             base.EndAction();
         }
@@ -40,14 +46,22 @@ public class ActionDialog : ActionTrigger
         base.EndAction();
 
         MouseController.currentMouseState = MouseState.Default;
-        StartDialogue = false;
+        startDialogue = false;
         StartCoroutine(WaitUntilDialogIsFinished());
     }
 
-    IEnumerator WaitUntilDialogIsFinished() {
+    // --- Private Functions --- //
+    private void Update() {
+
+        if (!DialogueManager.Instance.DialogueSelection && startDialogue) {
+            MouseController.currentMouseState = MouseState.OnDialog;
+        }
+    }
+
+    private IEnumerator WaitUntilDialogIsFinished() {
         
         yield return new WaitForSeconds(0.3f);
-        CanStartDialogAgain = true;
+        canStartDialogAgain = true;
     }
 
 }
