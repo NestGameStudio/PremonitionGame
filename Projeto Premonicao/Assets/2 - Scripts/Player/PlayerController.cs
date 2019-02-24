@@ -3,22 +3,32 @@
 [RequireComponent(typeof(PlayerMovement))]
 public class PlayerController : MonoBehaviour {
 
-    [SerializeField]    // SerialiazeField make it show up in the inspector even though it is a private variable
-    private float speed = 5f;
-    [SerializeField]
-    private float mouseSensitivity = 10f;
+    // ------------------------- Variables ------------------------- //
 
-    private PlayerMovement movement;
-
+    // --- Public Variables --- //
     public Animator PlayerAnimator;
 
+    // --- Private Variables --- //
+    [SerializeField] private float speed = 5f; // SerialiazeField make it show up in the inspector even though it is a private variable
+    [SerializeField] private float mouseSensitivity = 10f;
+    private PlayerMovement movement;
+
+    // ------------------------- Functions ------------------------- //
+
+    // --- Private Functions --- //
+
+    /// < Start(): void >
+    /// AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA - rever isso
+    /// </ Start(): void >
     private void Start() {
 
         // Don't need to check if there is a playermovement because there's a requirement
         movement = GetComponent<PlayerMovement>();
     }
 
-
+    /// < Update(): void >
+    /// AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA - rever isso
+    /// </ Update(): void >
     private void Update() {
 
         // 1 - Calculate moment velocity as a 3D vector
@@ -58,7 +68,7 @@ public class PlayerController : MonoBehaviour {
 
         if (Input.GetButton("Fire2")){
             PlayerAnimator.SetBool("ArmUp", true);
-        }else
+        } else
         {
             PlayerAnimator.SetBool("ArmUp", false);
         }

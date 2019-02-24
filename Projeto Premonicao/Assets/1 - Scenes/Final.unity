@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1217,12 +1217,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MouseController: {fileID: 1249117191}
-  PrompHeader: 
-  dialoguePrompts:
-  - DialogPrompt: I need an access card to open this door.
-    dialogue:
-    - SpeakerName: 
-      Sentence: I wonder if there's one lying around.
+  PromptHeader: 
+  DialoguePrompts: []
 --- !u!1001 &256015904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4897,6 +4893,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903044564}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &913066506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1263091447941582744, guid: 40424c425e529154397d6fb7daf47d99,
+    type: 3}
+  m_PrefabInstance: {fileID: 1246775777}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &938740103 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4796127971533682690, guid: 84f9ebe745a34694da4f5197415d2922,
@@ -6852,6 +6854,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
         type: 3}
+      propertyPath: DialoguePrompts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: DialoguePrompts.Array.data[0].dialogue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
@@ -6879,6 +6891,26 @@ PrefabInstance:
         type: 3}
       propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: PromptHeader
+      value: adsfg
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: DialoguePrompts.Array.data[0].DialogPrompt
+      value: asfg
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: DialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
+      value: g
+      objectReference: {fileID: 0}
+    - target: {fileID: 8884422936004310293, guid: 40424c425e529154397d6fb7daf47d99,
+        type: 3}
+      propertyPath: DialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
+      value: gasfgasfg
       objectReference: {fileID: 0}
     - target: {fileID: 5257292056492427462, guid: 40424c425e529154397d6fb7daf47d99,
         type: 3}
@@ -8258,12 +8290,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MouseController: {fileID: 1249117191}
-  PrompHeader: 
-  dialoguePrompts:
-  - DialogPrompt: It looks like this door will only open with a code.
-    dialogue:
-    - SpeakerName: 
-      Sentence: I might be able to find it if i look around.
+  PromptHeader: 
+  DialoguePrompts: []
 --- !u!1 &1604994382
 GameObject:
   m_ObjectHideFlags: 0
@@ -9263,6 +9291,26 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 414283576}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1780360580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780360579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26adcd81a89a1b4f999520b9d03399f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NPC: {fileID: 913066506}
+  DialoguePrompts:
+  - DialogPrompt: Found this card
+    dialogue:
+    - SpeakerName: Monica
+      Sentence: Really?
+    - SpeakerName: Monica
+      Sentence: Do you always grab stuff on the ground?
 --- !u!4 &1780360582 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1912930808615071019, guid: f271f8d793bf41d46a6a5938b0787427,

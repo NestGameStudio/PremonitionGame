@@ -15,7 +15,7 @@ public class DialogueManager : MonoBehaviour
 
     private int maxDialogueOptions = 1;
 
-    private DialoguePrompt[] dialoguePrompts;
+    private List<DialoguePrompt> dialoguePrompts = new List<DialoguePrompt>();
     [HideInInspector]
     public bool DialogueSelection = false;
     private int currentSelectedPrompt;
@@ -74,7 +74,7 @@ public class DialogueManager : MonoBehaviour
 
                 dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Bold;
 
-            } else if (((Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) && canDisplayNextSentence) || dialoguePrompts.Length == 1) {
+            } else if (((Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) && canDisplayNextSentence) || dialoguePrompts.Count == 1) {
 
                 StartDialogue(dialoguePrompts[currentSelectedPrompt].dialogue);
                 dialogueOptions.transform.GetChild(currentSelectedPrompt).GetChild(0).GetComponent<Text>().fontStyle = FontStyle.Normal;
@@ -102,7 +102,7 @@ public class DialogueManager : MonoBehaviour
     }
 
 
-    public void SelectPrompt(DialoguePrompt[] _dialoguePrompts, EndOfDialogue endAction, string HeaderPrompt) {
+    public void SelectPrompt(List<DialoguePrompt> _dialoguePrompts, EndOfDialogue endAction, string HeaderPrompt) {
 
         nameText.transform.parent.gameObject.SetActive(false);
 
@@ -112,7 +112,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePrompts = _dialoguePrompts;
         EndDialogue = endAction;
 
-        maxDialogueOptions = dialoguePrompts.Length - 1;
+        maxDialogueOptions = dialoguePrompts.Count - 1;
         int index = 0;
 
         foreach (Transform dialogueChild in dialogueOptions.GetComponentInChildren<Transform>(true)) {
