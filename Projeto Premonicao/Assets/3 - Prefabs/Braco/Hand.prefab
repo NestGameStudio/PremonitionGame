@@ -496,17 +496,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bracelets
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3ffe18ec14a7e4d4aade19b63e4e32b7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3ffe18ec14a7e4d4aade19b63e4e32b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0749
+      value: -0.0809
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3ffe18ec14a7e4d4aade19b63e4e32b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.14
+      value: -0.1581
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3ffe18ec14a7e4d4aade19b63e4e32b7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.2535
+      value: -0.2559
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3ffe18ec14a7e4d4aade19b63e4e32b7, type: 3}
       propertyPath: m_LocalRotation.x
@@ -575,17 +579,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bracelets (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3ffe18ec14a7e4d4aade19b63e4e32b7, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3ffe18ec14a7e4d4aade19b63e4e32b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.07126
+      value: -0.0773
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3ffe18ec14a7e4d4aade19b63e4e32b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.11994
+      value: -0.138
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3ffe18ec14a7e4d4aade19b63e4e32b7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.2504
+      value: -0.2528
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3ffe18ec14a7e4d4aade19b63e4e32b7, type: 3}
       propertyPath: m_LocalRotation.x
