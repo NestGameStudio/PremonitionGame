@@ -379,6 +379,11 @@ ModelImporter:
     100746: Plant 003
     100748: Plant 004
     100750: Plant 1
+    100752: Box391
+    100754: Box392
+    100756: Box393
+    100758: Box394
+    100760: Box395
     400000: //RootNode
     400002: Box032
     400004: Box198
@@ -755,6 +760,11 @@ ModelImporter:
     400746: Plant 003
     400748: Plant 004
     400750: Plant 1
+    400752: Box391
+    400754: Box392
+    400756: Box393
+    400758: Box394
+    400760: Box395
     2100000: No Name
     2100002: Storage 1
     2100004: Storage 2
@@ -767,6 +777,8 @@ ModelImporter:
     2100018: Bench1
     2100020: 23 - Default
     2100022: 22 - Default
+    2100024: 24 - Default
+    2100026: 01 - Default
     2300000: Box032
     2300002: Box198
     2300004: Box199
@@ -1113,6 +1125,11 @@ ModelImporter:
     2300686: Plane032
     2300688: Plane033
     2300690: Plane034
+    2300692: Box391
+    2300694: Box392
+    2300696: Box393
+    2300698: Box394
+    2300700: Box395
     3300000: Box032
     3300002: Box198
     3300004: Box199
@@ -1459,6 +1476,11 @@ ModelImporter:
     3300686: Plane032
     3300688: Plane033
     3300690: Plane034
+    3300692: Box391
+    3300694: Box392
+    3300696: Box393
+    3300698: Box394
+    3300700: Box395
     4300000: Object032
     4300002: Object033
     4300004: Object034
@@ -1805,6 +1827,11 @@ ModelImporter:
     4300686: Cylinder047
     4300688: Cylinder060
     4300690: Cylinder061
+    4300692: Box391
+    4300694: Box392
+    4300696: Box393
+    4300698: Box394
+    4300700: Box395
   externalObjects: {}
   materials:
     importMaterials: 1
