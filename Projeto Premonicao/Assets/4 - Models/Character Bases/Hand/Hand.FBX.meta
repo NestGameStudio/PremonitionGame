@@ -10,6 +10,9 @@ ModelImporter:
     100008: //RootNode
     100010: Object003
     100012: Relogio
+    100014: Cylinder004
+    100016: Plane001
+    100018: Plane002
     400000: Box009
     400002: Box010
     400004: Cylinder002
@@ -17,6 +20,9 @@ ModelImporter:
     400008: //RootNode
     400010: Object003
     400012: Relogio
+    400014: Cylinder004
+    400016: Plane001
+    400018: Plane002
     2100000: Relogio
     2100002: Screen
     2100004: No Name
@@ -26,16 +32,25 @@ ModelImporter:
     2300004: Cylinder002
     2300006: Cylinder003
     2300008: Object003
+    2300010: Cylinder004
+    2300012: Plane001
+    2300014: Plane002
     3300000: Box009
     3300002: Box010
     3300004: Cylinder002
     3300006: Cylinder003
     3300008: Object003
+    3300010: Cylinder004
+    3300012: Plane001
+    3300014: Plane002
     4300000: Box010
     4300002: Cylinder002
     4300004: Cylinder003
     4300006: Object003
     4300008: Box009
+    4300010: Cylinder004
+    4300012: Plane001
+    4300014: Plane002
     7400000: Take 001
     9500000: //RootNode
   externalObjects:
