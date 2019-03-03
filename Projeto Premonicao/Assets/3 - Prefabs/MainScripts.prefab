@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2140493956}
   - component: {fileID: 2140493960}
   - component: {fileID: 2140493957}
+  - component: {fileID: 1960188682}
   m_Layer: 0
   m_Name: MainScripts
   m_TagString: Untagged
@@ -203,6 +204,18 @@ MonoBehaviour:
   MaxNumOfObjects: 5
   HUDInventoryObjects: {fileID: 0}
   ItemDetail: {fileID: 0}
+--- !u!114 &1960188682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7357003282201104268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5798fb3d257f8464aa1e1d84349e82b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4770765265073948007
 PrefabInstance:
   m_ObjectHideFlags: 0
