@@ -14032,18 +14032,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.98800004
       objectReference: {fileID: 0}
-    - target: {fileID: 1613024523, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 1613024523, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_Depth
-      value: 2.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 225334664, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: m_ClearFlags
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 1217180859, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
       propertyPath: m_Interpolate
       value: 0
@@ -14056,14 +14044,6 @@ PrefabInstance:
       propertyPath: Respawn
       value: 
       objectReference: {fileID: 990572365}
-    - target: {fileID: 1494866564, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: volumeLayer.m_Bits
-      value: 801
-      objectReference: {fileID: 0}
-    - target: {fileID: 1494866564, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
-      propertyPath: antialiasingMode
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
 --- !u!1 &1525706296
