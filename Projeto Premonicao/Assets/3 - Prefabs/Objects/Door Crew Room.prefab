@@ -27,7 +27,7 @@ MonoBehaviour:
   MouseController: {fileID: 0}
   isResolved: 0
   TriggerObject: {fileID: 0}
-  ConsumeItem: 1
+  ConsumeItem: 0
   Monologue: {fileID: 0}
 --- !u!1001 &6994068013071857576
 PrefabInstance:

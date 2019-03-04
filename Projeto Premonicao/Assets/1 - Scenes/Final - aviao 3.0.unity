@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38881496, g: 0.36375517, b: 0.24670072, a: 1}
+  m_IndirectSpecularColor: {r: 0.3888141, g: 0.3637524, b: 0.24669367, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2467,6 +2467,18 @@ MonoBehaviour:
   QuestTrigger2: 0
   PositionScene3: {x: -10.42, y: 3.46, z: -16.33}
   QuestTrigger3: 0
+--- !u!114 &343879695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343879693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cd7b12c2432aca4180f14a704316422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &359174479
 GameObject:
   m_ObjectHideFlags: 0
@@ -3259,23 +3271,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5020126339984782354, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
+    - target: {fileID: 5020126339984782355, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
         type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
-    - target: {fileID: 5020126339984782354, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
+    - target: {fileID: 5020126339984782355, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
         type: 3}
       propertyPath: TriggerObject
       value: 
       objectReference: {fileID: 1780360579}
-    - target: {fileID: 5020126339984782354, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
+    - target: {fileID: 5020126339984782355, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
         type: 3}
       propertyPath: Monologue
       value: 
       objectReference: {fileID: 665785018}
-    m_RemovedComponents:
-    - {fileID: 5020126339984782354, guid: 7b40c1d13da5f1e4c9b7261bf51802de, type: 3}
+    - target: {fileID: 5020126339984782355, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
+        type: 3}
+      propertyPath: ConsumeItem
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b40c1d13da5f1e4c9b7261bf51802de, type: 3}
 --- !u!1001 &536503012
 PrefabInstance:
@@ -3392,7 +3408,7 @@ PrefabInstance:
     - target: {fileID: 7768611295032850781, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 195.00002
+      value: -0.000022888184
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b4fb6dc5d4d3ab468d50a15a0eeb862, type: 3}
@@ -18466,41 +18482,6 @@ MonoBehaviour:
   isResolved: 0
   CleanButton: 0
   Number: 6
---- !u!1 &5020126339984782353 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5020126339984782353, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
-    type: 3}
-  m_PrefabInstance: {fileID: 535314407}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5020126339984782354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5020126339984782353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8aa168656222d44448cd6d7f74ef97e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5020126339984782355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5020126339984782353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d8f84c9e562e194984980373f5f246a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MouseController: {fileID: 1249117191}
-  isResolved: 0
-  TriggerObject: {fileID: 1780360579}
-  ConsumeItem: 1
-  Monologue: {fileID: 665785018}
 --- !u!1 &5446646207876835100 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5446646207876835100, guid: 0ce7763ecda9eb94393ba5d513584ea2,
@@ -18652,11 +18633,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 234357531, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
+    - target: {fileID: 1593327110, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
-    - target: {fileID: 1593327110, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
+    - target: {fileID: 234357531, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
