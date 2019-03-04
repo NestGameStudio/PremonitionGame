@@ -20,10 +20,8 @@ public class TimeSceneObjects : MonoBehaviour {
             case 1:
 
                 if (ActionTrigger1) {
-                    Debug.Log("Abri porta 1");
                     this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
-                    Debug.Log("Fechei porta 1");
                     this.GetComponent<ActionTrigger>().UndoAction();
                 }
 
@@ -31,10 +29,8 @@ public class TimeSceneObjects : MonoBehaviour {
             case 2:
 
                 if (ActionTrigger2) {
-                    Debug.Log("Abri porta 2");
                     this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
-                    Debug.Log("Fechei porta 2");
                     this.GetComponent<ActionTrigger>().UndoAction();
                 }
 
@@ -42,10 +38,8 @@ public class TimeSceneObjects : MonoBehaviour {
             case 3:
 
                 if (ActionTrigger3) {
-                    Debug.Log("Abri porta 3");
                     this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
-                    Debug.Log("Fechei porta 3");
                     this.GetComponent<ActionTrigger>().UndoAction();
                 }
 
