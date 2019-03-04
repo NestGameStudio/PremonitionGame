@@ -8,29 +8,26 @@ public class TimeSceneNPC : TimeSceneController
 
     [Header("Cena 1")]
     public Vector3 PositionScene1;
-    public bool QuestTrigger1;
+    public bool QuestTrigger1 = false;
 
     [Header("Cena 2")]
     public Vector3 PositionScene2;
-    public bool QuestTrigger2;
+    public bool QuestTrigger2 = false;
 
     [Header("Cena 3")]
     public Vector3 PositionScene3;
-    public bool QuestTrigger3;
+    public bool QuestTrigger3 = false;
 
     public void ChangeStateNPC() {
 
         switch (Instance.currentState) {
             case 1:
-                Debug.Log("1");
                 this.transform.localPosition = PositionScene1;
                 break;
             case 2:
-                Debug.Log("2");
                 this.transform.localPosition = PositionScene2;
                 break;
             case 3:
-                Debug.Log("3");
                 this.transform.localPosition = PositionScene3;
                 break;
             case 4:

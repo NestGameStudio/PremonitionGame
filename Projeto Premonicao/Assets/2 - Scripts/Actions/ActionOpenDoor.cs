@@ -9,6 +9,7 @@ public class ActionOpenDoor: ActionInteraction {
 
         if (InventoryManager.Instance.checkIfHaveItem(TriggerObject) || isResolved) {
             this.gameObject.SetActive(false);
+            this.gameObject.GetComponent<TimeSceneObjects>().ActivateTrigger();
             if (ConsumeItem && !isResolved)
             {
                 InventoryManager.Instance.removeObjectFromInventory(TriggerObject);

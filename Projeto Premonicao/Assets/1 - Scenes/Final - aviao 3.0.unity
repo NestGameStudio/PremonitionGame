@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38881496, g: 0.36375517, b: 0.24670072, a: 1}
+  m_IndirectSpecularColor: {r: 0.3888141, g: 0.3637524, b: 0.24669367, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2533,12 +2533,6 @@ Transform:
   m_Father: {fileID: 1936772183}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &374859689 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8042544431534112256, guid: 6dfd5477c983d6f4db7ca78b84d5604a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1750246035}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &374859690 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 592477684798622475, guid: 6dfd5477c983d6f4db7ca78b84d5604a,
@@ -2763,67 +2757,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1912930808615071019, guid: f271f8d793bf41d46a6a5938b0787427,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.83113545
-      objectReference: {fileID: 0}
-    - target: {fileID: 1912930808615071019, guid: f271f8d793bf41d46a6a5938b0787427,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.83113545
-      objectReference: {fileID: 0}
     - target: {fileID: 418615699, guid: f271f8d793bf41d46a6a5938b0787427, type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
-    - target: {fileID: 418615699, guid: f271f8d793bf41d46a6a5938b0787427, type: 3}
-      propertyPath: interactiveObject.Description
-      value: This card looks like it opens some kind of door.
-      objectReference: {fileID: 0}
-    - target: {fileID: 418615699, guid: f271f8d793bf41d46a6a5938b0787427, type: 3}
-      propertyPath: interactiveObject.HUDSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 54cec9b0132f7fb42ba2d1943bf04f4c,
-        type: 3}
-    - target: {fileID: 418615699, guid: f271f8d793bf41d46a6a5938b0787427, type: 3}
-      propertyPath: interactiveObject.Name
-      value: Access Card
-      objectReference: {fileID: 0}
-    - target: {fileID: 418615699, guid: f271f8d793bf41d46a6a5938b0787427, type: 3}
-      propertyPath: isResolved
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5435914800124335688, guid: f271f8d793bf41d46a6a5938b0787427,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 2.027175
-      objectReference: {fileID: 0}
-    - target: {fileID: 5435914800124335688, guid: f271f8d793bf41d46a6a5938b0787427,
-        type: 3}
-      propertyPath: m_Center.y
-      value: -0.00660428
-      objectReference: {fileID: 0}
-    - target: {fileID: 5435914800124335688, guid: f271f8d793bf41d46a6a5938b0787427,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 0.2749254
-      objectReference: {fileID: 0}
-    - target: {fileID: 5435914800124335688, guid: f271f8d793bf41d46a6a5938b0787427,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 0.54985034
-      objectReference: {fileID: 0}
-    - target: {fileID: 5435914800124335688, guid: f271f8d793bf41d46a6a5938b0787427,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1.609041
-      objectReference: {fileID: 0}
-    - target: {fileID: 5435914800124335688, guid: f271f8d793bf41d46a6a5938b0787427,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 0.026992535
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f271f8d793bf41d46a6a5938b0787427, type: 3}
 --- !u!1001 &456650347
@@ -3270,11 +3207,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crew Room Door
       objectReference: {fileID: 0}
-    - target: {fileID: 5020126339984782353, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4214343846263010750, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3330,16 +3262,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4214343846263010750, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.4737092
-      objectReference: {fileID: 0}
-    - target: {fileID: 5020126339984782354, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
-        type: 3}
-      propertyPath: TriggerObject
-      value: 
-      objectReference: {fileID: 374859689}
     - target: {fileID: 5020126339984782354, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
         type: 3}
       propertyPath: MouseController
@@ -3347,34 +3269,14 @@ PrefabInstance:
       objectReference: {fileID: 1249117191}
     - target: {fileID: 5020126339984782354, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
         type: 3}
+      propertyPath: TriggerObject
+      value: 
+      objectReference: {fileID: 1780360579}
+    - target: {fileID: 5020126339984782354, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
+        type: 3}
       propertyPath: Monologue
       value: 
       objectReference: {fileID: 665785018}
-    - target: {fileID: 5020126339984782354, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
-        type: 3}
-      propertyPath: isResolved
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6988368245037165310, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
-        type: 3}
-      propertyPath: m_Text
-      value: Crew Room
-      objectReference: {fileID: 0}
-    - target: {fileID: 990595449336368059, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bc342f396925f9d48957398b30d7545b, type: 2}
-    - target: {fileID: 6994068013281594835, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bc342f396925f9d48957398b30d7545b, type: 2}
-    - target: {fileID: 3321453595732476142, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bc342f396925f9d48957398b30d7545b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b40c1d13da5f1e4c9b7261bf51802de, type: 3}
 --- !u!1001 &536503012
@@ -18344,6 +18246,25 @@ MonoBehaviour:
   isResolved: 0
   CleanButton: 0
   Number: 6
+--- !u!1 &5020126339984782353 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5020126339984782353, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
+    type: 3}
+  m_PrefabInstance: {fileID: 535314407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5020126339984782354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5020126339984782353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa168656222d44448cd6d7f74ef97e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 1
 --- !u!1 &5446646207876835100 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5446646207876835100, guid: 0ce7763ecda9eb94393ba5d513584ea2,
@@ -18495,11 +18416,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 234357531, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
+    - target: {fileID: 1593327110, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
-    - target: {fileID: 1593327110, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
+    - target: {fileID: 234357531, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
