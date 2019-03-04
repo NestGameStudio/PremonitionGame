@@ -394,6 +394,9 @@ ModelImporter:
     100776: Cylinder064
     100778: Cylinder065
     100780: Object194
+    100782: Object195
+    100784: Object196
+    100786: Object197
     400000: //RootNode
     400002: Box032
     400004: Box198
@@ -785,6 +788,9 @@ ModelImporter:
     400776: Cylinder064
     400778: Cylinder065
     400780: Object194
+    400782: Object195
+    400784: Object196
+    400786: Object197
     2100000: No Name
     2100002: Storage 1
     2100004: Storage 2
@@ -800,6 +806,7 @@ ModelImporter:
     2100024: 24 - Default
     2100026: 01 - Default
     2100028: 04 - Default
+    2100030: 08 - Default
     2300000: Box032
     2300002: Box198
     2300004: Box199
@@ -1161,6 +1168,9 @@ ModelImporter:
     2300716: Cylinder064
     2300718: Cylinder065
     2300720: Object194
+    2300722: Object195
+    2300724: Object196
+    2300726: Object197
     3300000: Box032
     3300002: Box198
     3300004: Box199
@@ -1522,6 +1532,9 @@ ModelImporter:
     3300716: Cylinder064
     3300718: Cylinder065
     3300720: Object194
+    3300722: Object195
+    3300724: Object196
+    3300726: Object197
     4300000: Object032
     4300002: Object033
     4300004: Object034
@@ -1883,6 +1896,9 @@ ModelImporter:
     4300716: Box401
     4300718: Box399
     4300720: Box398
+    4300722: Object195
+    4300724: Object196
+    4300726: Object197
   externalObjects: {}
   materials:
     importMaterials: 1
