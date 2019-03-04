@@ -136,7 +136,7 @@ Transform:
   m_GameObject: {fileID: 5435914800124335687}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -1.4112687, y: 6.4549055, z: 9.369159}
-  m_LocalScale: {x: 0.831134, y: 0.8311345, z: 0.8311345}
+  m_LocalScale: {x: 0.831134, y: 0.83113545, z: 0.83113545}
   m_Children:
   - {fileID: 1565752955}
   m_Father: {fileID: 0}
@@ -153,8 +153,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.26415998, y: 0.16510004, z: 0.003500121}
-  m_Center: {x: 0, y: 0, z: 0.0017500605}
+  m_Size: {x: 1.609041, y: 2.027175, z: 0.54985034}
+  m_Center: {x: 0.026992535, y: -0.00660428, z: 0.2749254}
 --- !u!114 &418615699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,8 +168,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MouseController: {fileID: 0}
+  isResolved: 0
   interactiveObject:
-    Name: ID Card
-    Description: "cart\xE3o."
+    Name: Access Card
+    Description: This card looks like it opens some kind of door.
     Model: {fileID: 1004619538}
-    HUDSprite: {fileID: 21300000, guid: 222d0a3754e06ec4b895b96cb5d1a998, type: 3}
+    HUDSprite: {fileID: 21300000, guid: 54cec9b0132f7fb42ba2d1943bf04f4c, type: 3}
