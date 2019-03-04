@@ -15,4 +15,8 @@ public class ActionGrabObject : ActionTrigger {
         base.EndAction();
     }
 
+    public override void UndoAction() {
+        base.UndoAction();
+    }
+
 }

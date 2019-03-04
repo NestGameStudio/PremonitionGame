@@ -10,10 +10,18 @@ using UnityEditor;
 public class ActionTrigger : MonoBehaviour
 {
     public CursorBehaviour MouseController;
+    public bool isResolved = false;
+
+    public void Update() {
+        
+        if (isResolved) {
+            DoAction();
+        }
+    }
 
     public virtual void DoAction() {
 
-        if (this.GetComponent<DialogueAddNew>() != null) {
+        /*if (this.GetComponent<DialogueAddNew>() != null) {
 
             // Get the dialogues from each NPC
             foreach (DialogueAddNew NPCs in this.GetComponents<DialogueAddNew>()) {
@@ -31,8 +39,10 @@ public class ActionTrigger : MonoBehaviour
                 }
 
             }
-        }
+        }*/
     }
 
     public virtual void EndAction() { MouseController.currentMouseState = MouseState.Default; }
+
+    public virtual void UndoAction() { }
 }
