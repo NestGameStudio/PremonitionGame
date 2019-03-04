@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TimeSceneObjects : TimeSceneController {
+public class TimeSceneObjects : MonoBehaviour {
     // Trigger da acao
 
     [Header("Cena 1")]
@@ -16,12 +16,12 @@ public class TimeSceneObjects : TimeSceneController {
 
     public void ChangeStateObject() {
 
-        switch (Instance.currentState) {
+        switch (TimeSceneController.Instance.currentState) {
             case 1:
 
                 if (ActionTrigger1) {
                     Debug.Log("Aqui 1");
-                    this.GetComponent<ActionTrigger>().DoAction();
+                    this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
                     Debug.Log("Aqui Fechado 1");
                     this.GetComponent<ActionTrigger>().UndoAction();
@@ -32,7 +32,7 @@ public class TimeSceneObjects : TimeSceneController {
 
                 if (ActionTrigger2) {
                     Debug.Log("Aqui 2");
-                    this.GetComponent<ActionTrigger>().DoAction();
+                    this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
                     Debug.Log("Aqui Fechado 2");
                     this.GetComponent<ActionTrigger>().UndoAction();
@@ -43,7 +43,7 @@ public class TimeSceneObjects : TimeSceneController {
 
                 if (ActionTrigger3) {
                     Debug.Log("Aqui 3");
-                    this.GetComponent<ActionTrigger>().DoAction();
+                    this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
                     Debug.Log("Aqui Fechado 3");
                     this.GetComponent<ActionTrigger>().UndoAction();
@@ -54,7 +54,7 @@ public class TimeSceneObjects : TimeSceneController {
 
                 if (ActionTrigger3) {
                     Debug.Log("Aqui 4");
-                    this.GetComponent<ActionTrigger>().DoAction();
+                    this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
                     Debug.Log("Aqui Fechado 4");
                     this.GetComponent<ActionTrigger>().UndoAction();
@@ -65,7 +65,7 @@ public class TimeSceneObjects : TimeSceneController {
 
                 if (ActionTrigger3) {
                     Debug.Log("Aqui 5");
-                    this.GetComponent<ActionTrigger>().DoAction();
+                    this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
                     Debug.Log("Aqui Fechado 5");
                     this.GetComponent<ActionTrigger>().UndoAction();
@@ -78,7 +78,7 @@ public class TimeSceneObjects : TimeSceneController {
 
     public void ActivateTrigger() {
 
-        switch (Instance.currentState) {
+        switch (TimeSceneController.Instance.currentState) {
             case 1:
                 ActionTrigger1 = true;
                 ActionTrigger2 = true;

@@ -12,7 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aa168656222d44448cd6d7f74ef97e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 1
+--- !u!114 &5020126339984782355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5020126339984782353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8f84c9e562e194984980373f5f246a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MouseController: {fileID: 0}
+  isResolved: 0
+  TriggerObject: {fileID: 0}
+  ConsumeItem: 1
+  Monologue: {fileID: 0}
 --- !u!1001 &6994068013071857576
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84,11 +100,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.4737092
-      objectReference: {fileID: 0}
-    - target: {fileID: 2640509625942541242, guid: cc2d8575fedb4a44e8422d59e17bb195,
-        type: 3}
-      propertyPath: isResolved
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 140808036064075094, guid: cc2d8575fedb4a44e8422d59e17bb195,
         type: 3}

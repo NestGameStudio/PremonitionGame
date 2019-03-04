@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TimeSceneNPC : TimeSceneController
+public class TimeSceneNPC : MonoBehaviour
 {
     // Posição e Estado da Quest
 
@@ -20,7 +20,7 @@ public class TimeSceneNPC : TimeSceneController
 
     public void ChangeStateNPC() {
 
-        switch (Instance.currentState) {
+        switch (TimeSceneController.Instance.currentState) {
             case 1:
                 this.transform.localPosition = PositionScene1;
                 break;
