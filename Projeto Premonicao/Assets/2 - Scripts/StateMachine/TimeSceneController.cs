@@ -17,12 +17,10 @@ public class TimeSceneController : MonoBehaviour
 
             if (currentState != 5)
                 currentState += 1;
-            //Debug.Log("Adiantou uma cena " + currentState);
         } else {
 
             if (currentState != 1)
                 currentState -= 1;
-            //Debug.Log("Voltou uma cena " + currentState);
         }
 
         foreach(TimeSceneNPC NPCs in GameObject.FindObjectsOfType<TimeSceneNPC>()) {
