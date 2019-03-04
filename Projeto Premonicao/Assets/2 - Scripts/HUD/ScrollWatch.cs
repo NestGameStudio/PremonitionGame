@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ScrollWatch : MonoBehaviour
 {
-    private float actualPosition = 0.5f;
+    private float actualPosition = 0f;
 
     // Start is called before the first frame update
     void Start()

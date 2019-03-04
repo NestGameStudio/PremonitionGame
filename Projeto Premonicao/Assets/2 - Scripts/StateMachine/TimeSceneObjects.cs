@@ -20,10 +20,10 @@ public class TimeSceneObjects : MonoBehaviour {
             case 1:
 
                 if (ActionTrigger1) {
-                    Debug.Log("Aqui 1");
+                    Debug.Log("Abri porta 1");
                     this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
-                    Debug.Log("Aqui Fechado 1");
+                    Debug.Log("Fechei porta 1");
                     this.GetComponent<ActionTrigger>().UndoAction();
                 }
 
@@ -31,10 +31,10 @@ public class TimeSceneObjects : MonoBehaviour {
             case 2:
 
                 if (ActionTrigger2) {
-                    Debug.Log("Aqui 2");
+                    Debug.Log("Abri porta 2");
                     this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
-                    Debug.Log("Aqui Fechado 2");
+                    Debug.Log("Fechei porta 2");
                     this.GetComponent<ActionTrigger>().UndoAction();
                 }
 
@@ -42,10 +42,10 @@ public class TimeSceneObjects : MonoBehaviour {
             case 3:
 
                 if (ActionTrigger3) {
-                    Debug.Log("Aqui 3");
+                    Debug.Log("Abri porta 3");
                     this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
-                    Debug.Log("Aqui Fechado 3");
+                    Debug.Log("Fechei porta 3");
                     this.GetComponent<ActionTrigger>().UndoAction();
                 }
 
@@ -53,10 +53,8 @@ public class TimeSceneObjects : MonoBehaviour {
             case 4:
 
                 if (ActionTrigger3) {
-                    Debug.Log("Aqui 4");
                     this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
-                    Debug.Log("Aqui Fechado 4");
                     this.GetComponent<ActionTrigger>().UndoAction();
                 }
 
@@ -64,10 +62,8 @@ public class TimeSceneObjects : MonoBehaviour {
             default:
 
                 if (ActionTrigger3) {
-                    Debug.Log("Aqui 5");
                     this.GetComponent<ActionTrigger>().isResolved = true;
                 } else {
-                    Debug.Log("Aqui Fechado 5");
                     this.GetComponent<ActionTrigger>().UndoAction();
                 }
 

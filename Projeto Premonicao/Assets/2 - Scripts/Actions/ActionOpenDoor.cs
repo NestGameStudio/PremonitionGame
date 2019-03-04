@@ -10,6 +10,7 @@ public class ActionOpenDoor: ActionInteraction {
         if (InventoryManager.Instance.checkIfHaveItem(TriggerObject) || isResolved) {
             this.gameObject.SetActive(false);
             this.gameObject.GetComponent<TimeSceneObjects>().ActivateTrigger();
+
             if (ConsumeItem && !isResolved)
             {
                 InventoryManager.Instance.removeObjectFromInventory(TriggerObject);
@@ -28,7 +29,7 @@ public class ActionOpenDoor: ActionInteraction {
     // A questão sobre o que fazer com o item consumido 
     public override void UndoAction() {
         base.UndoAction();
-
+        isResolved = false;
         this.gameObject.SetActive(true);
     }
 
