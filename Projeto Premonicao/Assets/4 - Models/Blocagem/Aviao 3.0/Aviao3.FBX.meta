@@ -384,6 +384,16 @@ ModelImporter:
     100756: Box393
     100758: Box394
     100760: Box395
+    100762: Box396
+    100764: Box397
+    100766: Box398
+    100768: Box399
+    100770: Box400
+    100772: Box401
+    100774: Cockpit
+    100776: Cylinder064
+    100778: Cylinder065
+    100780: Object194
     400000: //RootNode
     400002: Box032
     400004: Box198
@@ -765,6 +775,16 @@ ModelImporter:
     400756: Box393
     400758: Box394
     400760: Box395
+    400762: Box396
+    400764: Box397
+    400766: Box398
+    400768: Box399
+    400770: Box400
+    400772: Box401
+    400774: Cockpit
+    400776: Cylinder064
+    400778: Cylinder065
+    400780: Object194
     2100000: No Name
     2100002: Storage 1
     2100004: Storage 2
@@ -779,6 +799,7 @@ ModelImporter:
     2100022: 22 - Default
     2100024: 24 - Default
     2100026: 01 - Default
+    2100028: 04 - Default
     2300000: Box032
     2300002: Box198
     2300004: Box199
@@ -1130,6 +1151,16 @@ ModelImporter:
     2300696: Box393
     2300698: Box394
     2300700: Box395
+    2300702: Box396
+    2300704: Box397
+    2300706: Box398
+    2300708: Box399
+    2300710: Box400
+    2300712: Box401
+    2300714: Cockpit
+    2300716: Cylinder064
+    2300718: Cylinder065
+    2300720: Object194
     3300000: Box032
     3300002: Box198
     3300004: Box199
@@ -1481,6 +1512,16 @@ ModelImporter:
     3300696: Box393
     3300698: Box394
     3300700: Box395
+    3300702: Box396
+    3300704: Box397
+    3300706: Box398
+    3300708: Box399
+    3300710: Box400
+    3300712: Box401
+    3300714: Cockpit
+    3300716: Cylinder064
+    3300718: Cylinder065
+    3300720: Object194
     4300000: Object032
     4300002: Object033
     4300004: Object034
@@ -1832,6 +1873,16 @@ ModelImporter:
     4300696: Box393
     4300698: Box394
     4300700: Box395
+    4300702: Box396
+    4300704: Box397
+    4300706: Cockpit
+    4300708: Object194
+    4300710: Cylinder065
+    4300712: Cylinder064
+    4300714: Box400
+    4300716: Box401
+    4300718: Box399
+    4300720: Box398
   externalObjects: {}
   materials:
     importMaterials: 1
