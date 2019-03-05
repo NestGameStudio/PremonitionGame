@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2043896248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646520716489132347}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f439e8963da5ae49b8dbf2f7f0a7b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PositionScene1: {x: 0, y: 0, z: 0}
+  QuestTrigger1: 0
+  PositionScene2: {x: 0, y: 0, z: 0}
+  QuestTrigger2: 0
+  PositionScene3: {x: 0, y: 0, z: 0}
+  QuestTrigger3: 0
 --- !u!1001 &1570887867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -151,33 +169,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.size
-      value: 1
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.61080754
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
-      value: 1
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Height
+      value: 2.3392997
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: '*Waaah! Waaaah!*'
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.026155591
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: Somehow this kid managed to get lost inside a plane.
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.15465903
       objectReference: {fileID: 0}
     - target: {fileID: 5367820843834890124, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+--- !u!1 &1646520716489132347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7695712146682819129, guid: 8b1106e7586d9154b94600d3541e82aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 8941110575549135618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2072420946729103518 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6978190650663881628, guid: 8b1106e7586d9154b94600d3541e82aa,

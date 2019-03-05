@@ -1,5 +1,41 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1279315727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733012478576344432}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f439e8963da5ae49b8dbf2f7f0a7b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PositionScene1: {x: -6.8, y: 3.81, z: 3.559999}
+  QuestTrigger1: 0
+  PositionScene2: {x: -6.8, y: 3.81, z: 3.559999}
+  QuestTrigger2: 0
+  PositionScene3: {x: -6.8, y: 3.81, z: 3.559999}
+  QuestTrigger3: 0
+--- !u!114 &1279315728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733012478576344432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f39b9ed0f29b3644793c2fef21eaf120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MouseController: {fileID: 0}
+  isResolved: 0
+  changedObject: {fileID: 0}
+  NewPosition1: {x: -6.32, y: 3.46, z: -14.18}
+  NewPosition2: {x: -6.07, y: 3.46, z: -3.23}
+  NewPosition3: {x: -5.53, y: 3.46, z: 3.49}
 --- !u!1001 &22732686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -136,63 +172,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
-      value: 3
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.76584953
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.size
-      value: 1
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Height
+      value: 3.3239985
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: -> Ask about the wing.
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.025017796
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
-      value: Jorge
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Center.y
+      value: -0.0658865
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: You saw the smoke as well, right?
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
-      value: Jorge
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
-      value: It looks like there's a problem with the fuel tank.
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].SpeakerName
-      value: Jorge
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[2].Sentence
-      value: I hope the crew is looking into it, but I don't see anyone headed to
-        the control room.
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
-      value: -> Ask about the flight.
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].SpeakerName
-      value: Jorge
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
-      value: Well, everything was going smoothly, until that smoke started to come
-        out.
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.08341079
       objectReference: {fileID: 0}
     - target: {fileID: 5367820843834890124, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+--- !u!1 &3733012478576344432 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7695712146682819129, guid: 8b1106e7586d9154b94600d3541e82aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 6413964239929904969}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4167370152189445333 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6978190650663881628, guid: 8b1106e7586d9154b94600d3541e82aa,

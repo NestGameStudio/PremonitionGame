@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &385201302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2854243206768071164}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f439e8963da5ae49b8dbf2f7f0a7b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PositionScene1: {x: 0, y: 0, z: 0}
+  QuestTrigger1: 0
+  PositionScene2: {x: 0, y: 0, z: 0}
+  QuestTrigger2: 0
+  PositionScene3: {x: 0, y: 0, z: 0}
+  QuestTrigger3: 0
 --- !u!1001 &285356465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15,37 +33,37 @@ PrefabInstance:
     - target: {fileID: 5609411128489719832, guid: d08e71ced4291254a9b68af6be9ff208,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.009
+      value: -0.0089998245
       objectReference: {fileID: 0}
     - target: {fileID: 5609411128489719832, guid: d08e71ced4291254a9b68af6be9ff208,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.239
+      value: -1.348958
       objectReference: {fileID: 0}
     - target: {fileID: 5609411128489719832, guid: d08e71ced4291254a9b68af6be9ff208,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.51
+      value: 0.035830438
       objectReference: {fileID: 0}
     - target: {fileID: 5609411128489719832, guid: d08e71ced4291254a9b68af6be9ff208,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5650306
+      value: 0.70935017
       objectReference: {fileID: 0}
     - target: {fileID: 5609411128489719832, guid: d08e71ced4291254a9b68af6be9ff208,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.10163328
+      value: -0.13341749
       objectReference: {fileID: 0}
     - target: {fileID: 5609411128489719832, guid: d08e71ced4291254a9b68af6be9ff208,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.17397721
+      value: -0.1509872
       objectReference: {fileID: 0}
     - target: {fileID: 5609411128489719832, guid: d08e71ced4291254a9b68af6be9ff208,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.8000895
+      value: -0.6754443
       objectReference: {fileID: 0}
     - target: {fileID: 5609411128489719832, guid: d08e71ced4291254a9b68af6be9ff208,
         type: 3}
@@ -55,17 +73,17 @@ PrefabInstance:
     - target: {fileID: 5609411128489719832, guid: d08e71ced4291254a9b68af6be9ff208,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -69.97
+      value: -86.90501
       objectReference: {fileID: 0}
     - target: {fileID: 5609411128489719832, guid: d08e71ced4291254a9b68af6be9ff208,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -5.6920004
+      value: -141.001
       objectReference: {fileID: 0}
     - target: {fileID: 5609411128489719832, guid: d08e71ced4291254a9b68af6be9ff208,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -331.479
+      value: -195.78699
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d08e71ced4291254a9b68af6be9ff208, type: 3}
@@ -136,73 +154,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].DialogPrompt
-      value: -> Ask about the wing.
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].SpeakerName
-      value: Phillip
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[0].Sentence
-      value: The wing? No, I haven't seen anything weird.
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].SpeakerName
-      value: Phillip
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[0].dialogue.Array.data[1].Sentence
-      value: Now if you'll excuse me, I gotta head for the bathroom back there.
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].DialogPrompt
-      value: "-> Ask about the flight.\t"
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].SpeakerName
-      value: Phillip
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[0].Sentence
-      value: It's been going well, but I'm having to pee a lot
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[1].SpeakerName
-      value: Phillip
-      objectReference: {fileID: 0}
-    - target: {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
-      propertyPath: dialoguePrompts.Array.data[1].dialogue.Array.data[1].Sentence
-      value: Usually when I have to pee this much it means something bad is about
-        to happen.
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.6891971
       objectReference: {fileID: 0}
     - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
       propertyPath: m_Height
-      value: 2.2296135
+      value: 3.3714178
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.08608807
       objectReference: {fileID: 0}
     - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.11480716
+      value: 0.11239064
       objectReference: {fileID: 0}
     - target: {fileID: 3728532800419312999, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
       propertyPath: m_Center.z
-      value: -0.0000000012985923
+      value: 3.252343e-10
       objectReference: {fileID: 0}
     - target: {fileID: 5367820843834890124, guid: 8b1106e7586d9154b94600d3541e82aa,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 51038388, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8b1106e7586d9154b94600d3541e82aa, type: 3}
+--- !u!1 &2854243206768071164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7695712146682819129, guid: 8b1106e7586d9154b94600d3541e82aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 5571206170133898181}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3280701982596032601 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6978190650663881628, guid: 8b1106e7586d9154b94600d3541e82aa,

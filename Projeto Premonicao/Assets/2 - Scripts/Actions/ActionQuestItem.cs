@@ -18,7 +18,7 @@ public class ActionQuestItem : ActionInteraction {
     public bool ActiveInScene3 = true;
     public Vector3 NewPosition3;
 
-    // parar de fazer ele multiplicar cartôes infinitos e selecionar qual cena que se pode fazer essa quest
+    // parar de fazer ele multiplicar cartões infinitos e selecionar qual cena que se pode fazer essa quest
 
     public override void DoAction() {
         base.DoAction();
