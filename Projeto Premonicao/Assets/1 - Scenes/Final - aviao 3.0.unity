@@ -20612,6 +20612,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fumaca
       objectReference: {fileID: 0}
+    - target: {fileID: 109961610843834803, guid: d30c3522e14cb4d4ebd6674af3ddcdf1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 109961610843834801, guid: d30c3522e14cb4d4ebd6674af3ddcdf1,
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
