@@ -14,7 +14,6 @@ public class ActionQuestItem : ActionInteraction {
         if (InventoryManager.Instance.checkIfHaveItem(TriggerObject)) {
             InventoryManager.Instance.removeObjectFromInventory(TriggerObject);
             rewardObject.SetActive(true);
-            GameObject.Instantiate(rewardObject, this.rewardObject.transform.position, rewardObject.transform.rotation, GameObject.Find("Interactive Objects").transform);
         }
     }
 

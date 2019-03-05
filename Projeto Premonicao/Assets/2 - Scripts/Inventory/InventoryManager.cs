@@ -126,8 +126,8 @@ public class InventoryManager: MonoBehaviour {
     public bool checkIfHaveItem(GameObject item) {
 
         foreach (Object itemFromInventory in ObjectsInInventory) {
-
             if (item.GetComponent<ActionGrabObject>().interactiveObject == itemFromInventory) {
+                Debug.Log("PEXE");
                 return true;
             }
         }
@@ -149,6 +149,7 @@ public class InventoryManager: MonoBehaviour {
                 foreach (Image inventoryObject in HUDInventoryObjects.GetComponentsInChildren<Image>(true)) {
 
                     if (inventoryObject.GetComponent<Image>().sprite.name == itemFromInventory.HUDSprite.name) {
+                        Destroy(item);
                         inventoryObject.gameObject.SetActive(false);
                         break;
                     }

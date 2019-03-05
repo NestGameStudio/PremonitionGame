@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aa168656222d44448cd6d7f74ef97e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5020126339984782355
+--- !u!114 &5644134835979386899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27,7 +27,7 @@ MonoBehaviour:
   MouseController: {fileID: 0}
   isResolved: 0
   TriggerObject: {fileID: 0}
-  ConsumeItem: 0
+  ConsumeItem: 1
   Monologue: {fileID: 0}
 --- !u!1001 &6994068013071857576
 PrefabInstance:

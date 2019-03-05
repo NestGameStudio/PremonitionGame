@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 1631898566}
   - component: {fileID: 1059622499}
   m_Layer: 0
-  m_Name: Keys
+  m_Name: Keys Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,8 +154,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.09730321, y: 0.19890805, z: 0.032515638}
-  m_Center: {x: -0.001851121, y: 0.05280442, z: 0.011364548}
+  m_Size: {x: 0.9302143, y: 0.9422282, z: 0.29078317}
+  m_Center: {x: 0.01568219, y: 0.06510031, z: 0.1404981}
 --- !u!114 &1059622499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,8 +169,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MouseController: {fileID: 0}
+  isResolved: 0
   interactiveObject:
-    Name: Key 2
-    Description: Howdyw
+    Name: Keys
+    Description: 'These keys look like they can open something in this plane.
+
+      Who could have left them here?'
     Model: {fileID: 1290538771}
-    HUDSprite: {fileID: 21300000, guid: 8f9c63326afbe454194e1e1ca29c7d71, type: 3}
+    HUDSprite: {fileID: 21300000, guid: 8f7d8a26ed07d8444b4a24c33b537adc, type: 3}

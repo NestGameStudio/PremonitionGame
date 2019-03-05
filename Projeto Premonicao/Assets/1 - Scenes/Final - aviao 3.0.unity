@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38881496, g: 0.36375517, b: 0.24670072, a: 1}
+  m_IndirectSpecularColor: {r: 0.3888141, g: 0.3637524, b: 0.24669367, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2675,6 +2675,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: First Class Access Card
       objectReference: {fileID: 0}
+    - target: {fileID: 5435914800124335687, guid: f271f8d793bf41d46a6a5938b0787427,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1912930808615071019, guid: f271f8d793bf41d46a6a5938b0787427,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3250,17 +3255,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5020126339984782355, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
+    - target: {fileID: 5644134835979386899, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
         type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
-    - target: {fileID: 5020126339984782355, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
+    - target: {fileID: 5644134835979386899, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
         type: 3}
       propertyPath: TriggerObject
       value: 
       objectReference: {fileID: 1780360579}
-    - target: {fileID: 5020126339984782355, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
+    - target: {fileID: 5644134835979386899, guid: 7b40c1d13da5f1e4c9b7261bf51802de,
         type: 3}
       propertyPath: Monologue
       value: 
@@ -3563,17 +3568,17 @@ PrefabInstance:
     - target: {fileID: 7468160998908804814, guid: 8eaf1d88802a9eb4ba7c813fd1cdf78f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.404
+      value: -40.87
       objectReference: {fileID: 0}
     - target: {fileID: 7468160998908804814, guid: 8eaf1d88802a9eb4ba7c813fd1cdf78f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0043125
+      value: -0.95
       objectReference: {fileID: 0}
     - target: {fileID: 7468160998908804814, guid: 8eaf1d88802a9eb4ba7c813fd1cdf78f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 42.748154
+      value: 25.83
       objectReference: {fileID: 0}
     - target: {fileID: 7468160998908804814, guid: 8eaf1d88802a9eb4ba7c813fd1cdf78f,
         type: 3}
@@ -15917,7 +15922,7 @@ PrefabInstance:
     - target: {fileID: 343879695, guid: 40424c425e529154397d6fb7daf47d99, type: 3}
       propertyPath: TriggerObject
       value: 
-      objectReference: {fileID: 1780360579}
+      objectReference: {fileID: 1941423931}
     - target: {fileID: 343879695, guid: 40424c425e529154397d6fb7daf47d99, type: 3}
       propertyPath: rewardObject
       value: 
@@ -20621,11 +20626,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 234357531, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
+    - target: {fileID: 1593327110, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
-    - target: {fileID: 1593327110, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
+    - target: {fileID: 234357531, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
