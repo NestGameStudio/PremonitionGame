@@ -8,7 +8,8 @@ public class OpenDrawer : ActionTrigger
     public override void DoAction()
     {
         base.DoAction();
-        gameObject.GetComponent<Animator>().SetBool("Open", isOpen);
         isOpen = !isOpen;
+
+        gameObject.GetComponent<Animator>().SetBool("Open", isOpen);
     }
 }
