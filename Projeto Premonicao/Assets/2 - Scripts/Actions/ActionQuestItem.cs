@@ -16,8 +16,16 @@ public class ActionQuestItem : ActionInteraction {
         base.DoAction();
 
         if (InventoryManager.Instance.checkIfHaveItem(TriggerObject)) {
-            InventoryManager.Instance.removeObjectFromInventory(TriggerObject);
-            rewardObject.SetActive(true);
+
+            if ((TimeSceneController.Instance.currentState == 1 && ActiveInScene1) || (TimeSceneController.Instance.currentState == 2 && ActiveInScene2) || (TimeSceneController.Instance.currentState == 3 && ActiveInScene3)) {
+                InventoryManager.Instance.removeObjectFromInventory(TriggerObject);
+                rewardObject.SetActive(true);
+            } else {
+                Debug.Log("Quest não está ativa");
+            }
+
+        } else {
+            Debug.Log("Não possui chave");
         }
     }
 
