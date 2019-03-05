@@ -127,7 +127,6 @@ public class InventoryManager: MonoBehaviour {
 
         foreach (Object itemFromInventory in ObjectsInInventory) {
             if (item.GetComponent<ActionGrabObject>().interactiveObject == itemFromInventory) {
-                Debug.Log("PEXE");
                 return true;
             }
         }
