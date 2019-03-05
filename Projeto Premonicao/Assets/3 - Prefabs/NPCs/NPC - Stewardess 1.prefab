@@ -35,6 +35,12 @@ MonoBehaviour:
   TriggerObject: {fileID: 0}
   ConsumeItem: 1
   rewardObject: {fileID: 0}
+  ActiveInScene1: 1
+  NewPosition1: {x: -6.32, y: 3.46, z: -14.18}
+  ActiveInScene2: 1
+  NewPosition2: {x: -5.62, y: 3.46, z: -17.95}
+  ActiveInScene3: 1
+  NewPosition3: {x: -10.42, y: 3.46, z: -16.33}
 --- !u!1001 &1153819505
 PrefabInstance:
   m_ObjectHideFlags: 0
