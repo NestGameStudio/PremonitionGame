@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 84765932348677886}
   - component: {fileID: 7982738577942238681}
   - component: {fileID: 5906955404339742987}
+  - component: {fileID: 8130693978121012603}
   m_Layer: 0
   m_Name: Book
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2607223893983668433}
-  m_LocalRotation: {x: -0.66066915, y: 0.25202444, z: 0.25202438, w: 0.6606692}
+  m_LocalRotation: {x: -0.66066813, y: 0.25202706, z: 0.25202706, w: 0.66066813}
   m_LocalPosition: {x: -36.135998, y: 4.5889864, z: -44.716454}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -91,3 +92,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.26416007, y: 0.42926013, z: 0.06604005}
   m_Center: {x: -0.0000002372005, y: -0.0000028629893, z: 0.033020005}
+--- !u!54 &8130693978121012603
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2607223893983668433}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7669419010996227132}
   - component: {fileID: 4781766569236436988}
   - component: {fileID: 1216831436}
+  - component: {fileID: 281742624554148918}
   m_Layer: 0
   m_Name: Cobertor
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216831435}
-  m_LocalRotation: {x: 0.0000000813282, y: 0.05693564, z: 0.0000000046379967, w: 0.99837786}
+  m_LocalRotation: {x: 0, y: 0.056936767, z: 0, w: 0.9983778}
   m_LocalPosition: {x: -1.487, y: 9.548, z: 37.181}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -93,3 +94,19 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 6991cfda2972b96478ca7c5bd4398a00, type: 3}
+--- !u!54 &281742624554148918
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216831435}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
