@@ -17,6 +17,32 @@ MonoBehaviour:
   - {fileID: 114280784304519562}
   - {fileID: 114333120878888610}
   - {fileID: 114394084180927052}
+  - {fileID: 114159722295130112}
+--- !u!114 &114159722295130112
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be0b374093b6243edbabfab21c5c5f2c, type: 3}
+  m_Name: MyOtherEffect
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  material:
+    overrideState: 1
+    value: {fileID: 2100000, guid: e43b144c336254275838ae41faea7954, type: 2}
+  depthMode:
+    overrideState: 1
+    value: 1
+  gameModeOnly:
+    overrideState: 1
+    value: 0
 --- !u!114 &114280784304519562
 MonoBehaviour:
   m_ObjectHideFlags: 3
