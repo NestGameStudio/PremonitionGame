@@ -18046,8 +18046,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 990572365}
     - target: {fileID: 1494866564, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
+      propertyPath: m_AfterStackBundles.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494866564, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
       propertyPath: antialiasingMode
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494866564, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
+      propertyPath: m_AfterStackBundles.Array.data[0].assemblyQualifiedName
+      value: ImageEffectGraph.Demo.MyOtherEffect, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494866564, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
+      propertyPath: m_AfterStackBundles.Array.data[1].assemblyQualifiedName
+      value: ImageEffectGraph.PostProcessing.RenderWithMaterial, ImageEffectGraph,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b456326b6b5a27346b6b887a6f223c40, type: 3}
@@ -21137,10 +21151,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1905662145}
     m_Modifications:
-    - target: {fileID: 2110168868, guid: 2a14b044364f0d8458c65a42a8b29ab7, type: 3}
-      propertyPath: m_Name
-      value: Carrinho de comida
-      objectReference: {fileID: 0}
     - target: {fileID: 5996164288645745817, guid: 2a14b044364f0d8458c65a42a8b29ab7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21200,6 +21210,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110168868, guid: 2a14b044364f0d8458c65a42a8b29ab7, type: 3}
+      propertyPath: m_Name
+      value: Carrinho de comida
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a14b044364f0d8458c65a42a8b29ab7, type: 3}
@@ -21987,11 +22001,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1593327110, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
+    - target: {fileID: 234357531, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
-    - target: {fileID: 234357531, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
+    - target: {fileID: 1593327110, guid: 971f9f53228620c468b637e1cc6224f6, type: 3}
       propertyPath: MouseController
       value: 
       objectReference: {fileID: 1249117191}
@@ -22030,26 +22044,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Keypad
-      objectReference: {fileID: 0}
-    - target: {fileID: 1980539584362378294, guid: 31a9976f25f04044abf92111a80cb7cd,
-        type: 3}
-      propertyPath: MouseController
-      value: 
-      objectReference: {fileID: 1249117191}
-    - target: {fileID: 1980539584362378294, guid: 31a9976f25f04044abf92111a80cb7cd,
-        type: 3}
-      propertyPath: KeypadScreen
-      value: 
-      objectReference: {fileID: 2588494629811451301}
-    - target: {fileID: 1980539584362378294, guid: 31a9976f25f04044abf92111a80cb7cd,
-        type: 3}
-      propertyPath: TriggerObject
-      value: 
-      objectReference: {fileID: 835732323}
-    - target: {fileID: 2588494629811451301, guid: 31a9976f25f04044abf92111a80cb7cd,
-        type: 3}
-      propertyPath: m_Text
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5962185643204038157, guid: 31a9976f25f04044abf92111a80cb7cd,
         type: 3}
@@ -22106,6 +22100,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1980539584362378294, guid: 31a9976f25f04044abf92111a80cb7cd,
+        type: 3}
+      propertyPath: MouseController
+      value: 
+      objectReference: {fileID: 1249117191}
+    - target: {fileID: 1980539584362378294, guid: 31a9976f25f04044abf92111a80cb7cd,
+        type: 3}
+      propertyPath: KeypadScreen
+      value: 
+      objectReference: {fileID: 2588494629811451301}
+    - target: {fileID: 1980539584362378294, guid: 31a9976f25f04044abf92111a80cb7cd,
+        type: 3}
+      propertyPath: TriggerObject
+      value: 
+      objectReference: {fileID: 835732323}
     - target: {fileID: 6542434830857627413, guid: 31a9976f25f04044abf92111a80cb7cd,
         type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.size
@@ -22171,6 +22180,11 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_TypeName
       value: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0,
         Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 2588494629811451301, guid: 31a9976f25f04044abf92111a80cb7cd,
+        type: 3}
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2526304294029237089, guid: 31a9976f25f04044abf92111a80cb7cd, type: 3}
