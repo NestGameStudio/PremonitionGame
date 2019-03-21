@@ -493,6 +493,52 @@ ModelImporter:
     100974: Plane061
     100976: Plane062
     100978: Plane063
+    100980: Box439
+    100982: Box440
+    100984: Box441
+    100986: Box442
+    100988: Box443
+    100990: Box444
+    100992: Box445
+    100994: Box446
+    100996: Box447
+    100998: Box448
+    101000: Box449
+    101002: Box450
+    101004: Box451
+    101006: Box452
+    101008: Box453
+    101010: Box454
+    101012: Box455
+    101014: Box456
+    101016: Box457
+    101018: Box458
+    101020: Box459
+    101022: Box460
+    101024: Box461
+    101026: Box462
+    101028: Compartimento017
+    101030: Compartimento018
+    101032: Compartimento019
+    101034: Compartimento020
+    101036: Compartimentos Direita003
+    101038: Cylinder083
+    101040: Cylinder085
+    101042: Cylinder086
+    101044: Cylinder087
+    101046: Cylinder088
+    101048: Cylinder089
+    101050: Cylinder090
+    101052: Cylinder091
+    101054: Object203
+    101056: Object204
+    101058: Object205
+    101060: Object206
+    101062: Object207
+    101064: Object208
+    101066: Object209
+    101068: StraightStair004
+    101070: Plane064
     400000: //RootNode
     400002: Box032
     400004: Box198
@@ -983,6 +1029,52 @@ ModelImporter:
     400974: Plane061
     400976: Plane062
     400978: Plane063
+    400980: Box439
+    400982: Box440
+    400984: Box441
+    400986: Box442
+    400988: Box443
+    400990: Box444
+    400992: Box445
+    400994: Box446
+    400996: Box447
+    400998: Box448
+    401000: Box449
+    401002: Box450
+    401004: Box451
+    401006: Box452
+    401008: Box453
+    401010: Box454
+    401012: Box455
+    401014: Box456
+    401016: Box457
+    401018: Box458
+    401020: Box459
+    401022: Box460
+    401024: Box461
+    401026: Box462
+    401028: Compartimento017
+    401030: Compartimento018
+    401032: Compartimento019
+    401034: Compartimento020
+    401036: Compartimentos Direita003
+    401038: Cylinder083
+    401040: Cylinder085
+    401042: Cylinder086
+    401044: Cylinder087
+    401046: Cylinder088
+    401048: Cylinder089
+    401050: Cylinder090
+    401052: Cylinder091
+    401054: Object203
+    401056: Object204
+    401058: Object205
+    401060: Object206
+    401062: Object207
+    401064: Object208
+    401066: Object209
+    401068: StraightStair004
+    401070: Plane064
     2100000: No Name
     2100002: Storage 1
     2100004: Storage 2
@@ -1451,6 +1543,47 @@ ModelImporter:
     2300888: Plane061
     2300890: Plane062
     2300892: Plane063
+    2300894: Box439
+    2300896: Box440
+    2300898: Box441
+    2300900: Box442
+    2300902: Box443
+    2300904: Box444
+    2300906: Box445
+    2300908: Box446
+    2300910: Box447
+    2300912: Box448
+    2300914: Box449
+    2300916: Box450
+    2300918: Box451
+    2300920: Box452
+    2300922: Box453
+    2300924: Box454
+    2300926: Box455
+    2300928: Box456
+    2300930: Box457
+    2300932: Box458
+    2300934: Box459
+    2300936: Box460
+    2300938: Box461
+    2300940: Box462
+    2300942: Cylinder083
+    2300944: Cylinder085
+    2300946: Cylinder086
+    2300948: Cylinder087
+    2300950: Cylinder088
+    2300952: Cylinder089
+    2300954: Cylinder090
+    2300956: Cylinder091
+    2300958: Object203
+    2300960: Object204
+    2300962: Object205
+    2300964: Object206
+    2300966: Object207
+    2300968: Object208
+    2300970: Object209
+    2300972: StraightStair004
+    2300974: Plane064
     3300000: Box032
     3300002: Box198
     3300004: Box199
@@ -1898,6 +2031,47 @@ ModelImporter:
     3300888: Plane061
     3300890: Plane062
     3300892: Plane063
+    3300894: Box439
+    3300896: Box440
+    3300898: Box441
+    3300900: Box442
+    3300902: Box443
+    3300904: Box444
+    3300906: Box445
+    3300908: Box446
+    3300910: Box447
+    3300912: Box448
+    3300914: Box449
+    3300916: Box450
+    3300918: Box451
+    3300920: Box452
+    3300922: Box453
+    3300924: Box454
+    3300926: Box455
+    3300928: Box456
+    3300930: Box457
+    3300932: Box458
+    3300934: Box459
+    3300936: Box460
+    3300938: Box461
+    3300940: Box462
+    3300942: Cylinder083
+    3300944: Cylinder085
+    3300946: Cylinder086
+    3300948: Cylinder087
+    3300950: Cylinder088
+    3300952: Cylinder089
+    3300954: Cylinder090
+    3300956: Cylinder091
+    3300958: Object203
+    3300960: Object204
+    3300962: Object205
+    3300964: Object206
+    3300966: Object207
+    3300968: Object208
+    3300970: Object209
+    3300972: StraightStair004
+    3300974: Plane064
     4300000: Object032
     4300002: Object033
     4300004: Object034
@@ -2345,6 +2519,47 @@ ModelImporter:
     4300888: Plane061
     4300890: Plane062
     4300892: Plane063
+    4300894: Object203
+    4300896: Object204
+    4300898: Object205
+    4300900: Object206
+    4300902: Object207
+    4300904: Object208
+    4300906: Object209
+    4300908: Cylinder083
+    4300910: Cylinder085
+    4300912: Cylinder086
+    4300914: Cylinder087
+    4300916: Cylinder088
+    4300918: Cylinder089
+    4300920: Box439
+    4300922: Box440
+    4300924: Box441
+    4300926: Box442
+    4300928: Box443
+    4300930: Box444
+    4300932: Box445
+    4300934: Box446
+    4300936: Box447
+    4300938: Box448
+    4300940: Box449
+    4300942: Box450
+    4300944: Box451
+    4300946: Box452
+    4300948: Box453
+    4300950: Box454
+    4300952: Box455
+    4300954: Box456
+    4300956: Cylinder090
+    4300958: Box457
+    4300960: Box458
+    4300962: Box459
+    4300964: Cylinder091
+    4300966: Box460
+    4300968: Box461
+    4300970: Box462
+    4300972: StraightStair004
+    4300974: Plane064
   externalObjects: {}
   materials:
     importMaterials: 1
